@@ -1,0 +1,40 @@
+[server]
+DOMAIN           = aegit.agyemanenterprises.com
+ROOT_URL         = https://aegit.agyemanenterprises.com/
+HTTP_PORT        = 8001
+SSH_DOMAIN       = aegit.agyemanenterprises.com
+SSH_PORT         = 2222
+SSH_LISTEN_PORT  = 22
+DISABLE_SSH      = false
+START_SSH_SERVER = true
+
+[database]
+DB_TYPE = sqlite3
+PATH    = /data/aegit.db
+
+[repository]
+ROOT          = /data/repos
+DISABLE_STARS = true
+
+[log]
+MODE  = console
+LEVEL = info
+
+[security]
+INSTALL_LOCK   = true
+SECRET_KEY     = ${SECRET_KEY}
+INTERNAL_TOKEN = ${INTERNAL_TOKEN}
+
+[service]
+DISABLE_REGISTRATION = true
+REQUIRE_SIGNIN_VIEW  = false
+
+[actions]
+ENABLED = false
+
+[packages]
+ENABLED = false
+
+[mirror]
+ENABLED          = true
+DEFAULT_INTERVAL = 8h
