@@ -48,6 +48,7 @@ cpu.out
 !/custom/conf
 /custom/conf/*
 !/custom/conf/app.example.ini
+!/custom/conf/app.ini.template
 /data
 /indexers
 /log

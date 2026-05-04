@@ -1,0 +1,14 @@
+tunnel: aegit
+credentials-file: /etc/cloudflared/aegit.json
+
+ingress:
+  # Web UI — HTTPS via Cloudflare tunnel (port 8001 internal)
+  - hostname: aegit.agyemanenterprises.com
+    service: http://localhost:8001
+
+  # SSH git operations — TCP tunnel (port 2222 internal, maps to container port 22)
+  - hostname: ssh.aegit.agyemanenterprises.com
+    service: tcp://localhost:2222
+
+  # Catch-all
+  - service: http_status:404

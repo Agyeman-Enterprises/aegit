@@ -65,10 +65,10 @@ endif
 # GOFLAGS and EXTRA_GOFLAGS are for the 'go build' command only
 ifeq ($(IS_WINDOWS),yes)
 	GOFLAGS := -v -buildmode=exe
-	EXECUTABLE ?= gitea.exe
+	EXECUTABLE ?= aegit.exe
 else
 	GOFLAGS := -v
-	EXECUTABLE ?= gitea
+	EXECUTABLE ?= aegit
 endif
 EXTRA_GOFLAGS ?=
 
