@@ -22,6 +22,8 @@ RUN chmod +x /usr/local/bin/first-boot.sh \
              /usr/local/bin/mirror-github.sh \
              /entrypoint.sh
 
+USER git
+
 VOLUME ["/data"]
 EXPOSE 8001 22
 

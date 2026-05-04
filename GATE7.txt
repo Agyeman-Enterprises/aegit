@@ -1,0 +1,63 @@
+AEGIT — GATE 7: PRODUCT-SPECIFIC BEHAVIORAL TEST
+=================================================
+AeGit is the Agyeman Enterprises sovereign Git forge (Gitea fork).
+Verification must center on the REPOSITORY HOSTING WORKFLOW, not static build health.
+
+This file is read by RELEASE_GATE.txt Gate 7.
+Every check below must PASS before AeGit can be called done.
+
+===================================================================
+SECTION A: CONTAINER HEALTH
+===================================================================
+
+  [ ] Container starts without errors           → podman ps shows "Up"
+  [ ] No restart loops                          → STATUS must not contain "Restarting"
+  [ ] HTTP 200 on port 8001                     → curl -sf http://localhost:8001/ returns 200
+  [ ] SSH server listening on port 2222         → podman logs shows "SSH server started on :2222"
+  [ ] Admin user created (agyeman)              → logs show "New user 'agyeman' has been successfully created!" or "Already done."
+  [ ] Config written correctly                  → [actions] ENABLED=false, [packages] ENABLED=false in /data/gitea/conf/app.ini
+
+===================================================================
+SECTION B: GITEA CORE FUNCTIONALITY
+===================================================================
+
+  [ ] Login as agyeman                          → POST /user/login returns 302 redirect
+  [ ] Create a test repository                  → POST /api/v1/user/repos → 201
+  [ ] Push a commit via HTTP                    → git push http://agyeman@localhost:8001/agyeman/test-repo.git
+  [ ] Clone via HTTP                            → git clone http://localhost:8001/agyeman/test-repo.git
+  [ ] Repo appears in UI                        → GET /agyeman → lists test-repo
+  [ ] Actions tab not visible                   → HTML of repo page must NOT contain "Actions" nav item
+  [ ] Packages not visible                      → HTML of explore page must NOT contain "Packages"
+
+===================================================================
+SECTION C: MIRRORING
+===================================================================
+
+  [ ] Mirror script ran without fatal errors    → logs show "[mirror] Already done." or "[mirror] Mirroring..."
+  [ ] At least one mirror exists                → GET /api/v1/repos/search?limit=5 → count > 0 (or 0 if GITHUB_TOKEN invalid)
+
+===================================================================
+SECTION D: PERSISTENCE
+===================================================================
+
+  [ ] Stop and restart container               → podman stop aegit && podman start aegit
+  [ ] After restart: admin user still exists   → GET /api/v1/users/agyeman → 200
+  [ ] After restart: repositories still exist  → GET /api/v1/repos/search → same count
+  [ ] Data volume survives restart             → /opt/aegit-data/aegit.db not wiped
+
+===================================================================
+SECTION E: TUNNEL READINESS
+===================================================================
+
+  [ ] Cloudflare tunnel hostname added by Akua → aegit.agyemanenterprises.com → http://localhost:8001
+  [ ] HTTPS access confirmed                   → curl -sf https://aegit.agyemanenterprises.com/ → 200
+
+===================================================================
+WHAT CLAUDE IS NOT ALLOWED TO SUBSTITUTE FOR THIS TEST
+===================================================================
+
+  - "tsc passed"          → NOT A PRODUCT TEST
+  - "build succeeded"     → NOT A PRODUCT TEST
+  - "image pushed"        → NOT A PRODUCT TEST (container must actually be RUNNING)
+  - "logs look good"      → NOT A PRODUCT TEST (must verify HTTP 200 directly)
+  - Only the full container-up + HTTP 200 + admin login checks count as PASS.
