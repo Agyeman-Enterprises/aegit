@@ -6,11 +6,11 @@ IMAGE="ghcr.io/agyeman-enterprises/aegit:stage1"
 CONTAINER="aegit"
 DATA_DIR="/opt/aegit-data"
 
-docker pull "$IMAGE"
-docker stop "$CONTAINER" 2>/dev/null || true
-docker rm   "$CONTAINER" 2>/dev/null || true
+podman pull "$IMAGE"
+podman stop "$CONTAINER" 2>/dev/null || true
+podman rm   "$CONTAINER" 2>/dev/null || true
 
-docker run -d \
+podman run -d \
   --name "$CONTAINER" \
   --restart unless-stopped \
   -p 8001:8001 \
