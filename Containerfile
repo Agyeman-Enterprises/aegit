@@ -10,10 +10,7 @@ WORKDIR /source
 COPY package.json pnpm-lock.yaml ./
 RUN corepack enable && pnpm install --frozen-lockfile
 
-COPY web_src   ./web_src
-COPY public    ./public
-COPY assets    ./assets
-COPY vite.config.ts tailwind.config.ts postcss.config.js ./
+COPY . .
 RUN pnpm exec vite build
 
 # ── Stage 2: Go binary ──────────────────────────────────────────────────────
