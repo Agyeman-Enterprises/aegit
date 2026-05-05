@@ -22,7 +22,7 @@ trap 'kill $GITEA_PID 2>/dev/null' INT TERM
 # Wait for server ready (max 60s)
 i=0
 while [ $i -lt 60 ]; do
-  curl -sf "http://localhost:8001/" > /dev/null 2>&1 && echo "[entrypoint] Ready after ${i}s." && break || true
+  curl -sf "http://localhost:8085/" > /dev/null 2>&1 && echo "[entrypoint] Ready after ${i}s." && break || true
   sleep 1
   i=$((i+1))
 done

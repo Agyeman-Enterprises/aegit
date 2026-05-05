@@ -1,7 +1,7 @@
 [server]
 DOMAIN           = aegit.agyemanenterprises.com
 ROOT_URL         = https://aegit.agyemanenterprises.com/
-HTTP_PORT        = 8001
+HTTP_PORT        = 8085
 SSH_DOMAIN       = aegit.agyemanenterprises.com
 SSH_PORT         = 2222
 SSH_LISTEN_PORT  = 2222
