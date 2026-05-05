@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2024 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -8,14 +9,14 @@ import (
 	"fmt"
 	"slices"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	actions_model "code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/nektos/act/pkg/model"
 	"go.yaml.in/yaml/v4"

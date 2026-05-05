@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	unittest "code.gitea.io/gitea/models/unittest"
+	actions_model "code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	unittest "code.aegit.io/aegit/models/unittest"
 
 	act_model "github.com/nektos/act/pkg/model"
 	"github.com/stretchr/testify/assert"

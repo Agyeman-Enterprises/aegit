@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.gitea.io/gitea/modules/options"
-	repo_module "code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/options"
+	repo_module "code.aegit.io/aegit/modules/repository"
+	"code.aegit.io/aegit/modules/setting"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/context"
 )
 
 // Returns a list of all License templates

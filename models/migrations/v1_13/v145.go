@@ -6,7 +6,7 @@ package v1_13
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 
 	"xorm.io/xorm"
 )

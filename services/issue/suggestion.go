@@ -7,10 +7,10 @@ import (
 	"context"
 	"strconv"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/structs"
+	issues_model "code.aegit.io/aegit/models/issues"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/structs"
 )
 
 func GetSuggestion(ctx context.Context, repo *repo_model.Repository, isPull optional.Option[bool], keyword string) ([]*structs.Issue, error) {

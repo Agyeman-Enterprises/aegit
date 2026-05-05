@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/tests"
+	auth_model "code.aegit.io/aegit/models/auth"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 )

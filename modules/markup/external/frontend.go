@@ -8,11 +8,11 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/htmlutil"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 )
 
 type frontendRenderer struct {

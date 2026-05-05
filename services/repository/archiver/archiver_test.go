@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/contexttest"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/contexttest"
 
-	_ "code.gitea.io/gitea/models/actions"
+	_ "code.aegit.io/aegit/models/actions"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

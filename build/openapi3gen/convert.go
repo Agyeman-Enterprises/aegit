@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/json"
 
 	"github.com/getkin/kin-openapi/openapi2"
 	"github.com/getkin/kin-openapi/openapi2conv"

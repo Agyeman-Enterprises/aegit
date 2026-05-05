@@ -7,9 +7,9 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
 
 	"github.com/urfave/cli/v3"
 )

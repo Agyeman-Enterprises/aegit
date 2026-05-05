@@ -8,15 +8,15 @@ import (
 	"errors"
 	"net/http"
 
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
-	org_service "code.gitea.io/gitea/services/org"
+	"code.aegit.io/aegit/models/organization"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
+	shared_user "code.aegit.io/aegit/routers/web/shared/user"
+	"code.aegit.io/aegit/services/context"
+	org_service "code.aegit.io/aegit/services/org"
 )
 
 const (

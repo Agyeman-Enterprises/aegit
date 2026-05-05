@@ -8,14 +8,14 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	git_model "code.gitea.io/gitea/models/git"
-	issues_model "code.gitea.io/gitea/models/issues"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
-	git_service "code.gitea.io/gitea/services/git"
-	"code.gitea.io/gitea/services/gitdiff"
+	asymkey_model "code.aegit.io/aegit/models/asymkey"
+	git_model "code.aegit.io/aegit/models/git"
+	issues_model "code.aegit.io/aegit/models/issues"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/setting"
+	git_service "code.aegit.io/aegit/services/git"
+	"code.aegit.io/aegit/services/gitdiff"
 
 	"github.com/stretchr/testify/assert"
 )

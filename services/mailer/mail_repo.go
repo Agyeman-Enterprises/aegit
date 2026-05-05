@@ -8,14 +8,14 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/translation"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	"code.aegit.io/aegit/models/organization"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/translation"
+	sender_service "code.aegit.io/aegit/services/mailer/sender"
 )
 
 const (

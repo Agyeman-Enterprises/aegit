@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/webhook"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/models/db"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/webhook"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/modules/log"
 
 	"xorm.io/builder"
 )

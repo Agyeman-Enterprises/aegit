@@ -4,8 +4,8 @@
 package setting
 
 import (
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // Admin settings

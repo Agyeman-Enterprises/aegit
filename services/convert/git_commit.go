@@ -8,14 +8,14 @@ import (
 	"net/url"
 	"time"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/log"
-	api "code.gitea.io/gitea/modules/structs"
-	ctx "code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/gitdiff"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/modules/log"
+	api "code.aegit.io/aegit/modules/structs"
+	ctx "code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/gitdiff"
 )
 
 // ToCommitUser convert a git.Signature to an api.CommitUser

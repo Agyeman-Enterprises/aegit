@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/json"
-	setting_module "code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/cache"
+	"code.aegit.io/aegit/modules/json"
+	setting_module "code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/builder"
 	"xorm.io/xorm/convert"

@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/indexer/stats"
-	"code.gitea.io/gitea/modules/queue"
-	repo_service "code.gitea.io/gitea/services/repository"
-	files_service "code.gitea.io/gitea/services/repository/files"
-	"code.gitea.io/gitea/tests"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/indexer/stats"
+	"code.aegit.io/aegit/modules/queue"
+	repo_service "code.aegit.io/aegit/services/repository"
+	files_service "code.aegit.io/aegit/services/repository/files"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 )

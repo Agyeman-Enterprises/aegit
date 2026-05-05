@@ -7,13 +7,13 @@ package mailer
 import (
 	"context"
 
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/queue"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
-	notify_service "code.gitea.io/gitea/services/notify"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/queue"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	sender_service "code.aegit.io/aegit/services/mailer/sender"
+	notify_service "code.aegit.io/aegit/services/notify"
 )
 
 var mailQueue *queue.WorkerPoolQueue[*sender_service.Message]

@@ -16,9 +16,9 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"github.com/mholt/archives"
 )

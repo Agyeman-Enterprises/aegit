@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2024 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -10,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
 
 	"github.com/golang-jwt/jwt/v5"
 )

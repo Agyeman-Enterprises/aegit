@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/timeutil"
+	activities_model "code.aegit.io/aegit/models/activities"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

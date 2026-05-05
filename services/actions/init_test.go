@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/util"
+	actions_model "code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

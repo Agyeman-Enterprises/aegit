@@ -4,9 +4,9 @@
 package pull
 
 import (
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/log"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // doMergeStyleFastForwardOnly merges the tracking into the current HEAD - which is assumed to be staging branch (equal to the pr.BaseBranch)

@@ -10,8 +10,8 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // ResolveReference resolves a name to a reference

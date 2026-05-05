@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"code.gitea.io/gitea/modules/translation"
+	"code.aegit.io/aegit/modules/translation"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

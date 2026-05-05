@@ -6,11 +6,11 @@ package issues
 import (
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/indexer/issues/internal"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/models/db"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/modules/indexer/issues/internal"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 func ToSearchOptions(keyword string, opts *issues_model.IssuesOptions) *SearchOptions {

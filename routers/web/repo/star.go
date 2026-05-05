@@ -6,9 +6,9 @@ package repo
 import (
 	"net/http"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
 )
 
 const tplStarUnstar templates.TplName = "repo/header/star"

@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/modules/web/routing"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/reqctx"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/web/middleware"
+	"code.aegit.io/aegit/modules/web/routing"
 
 	"github.com/go-chi/chi/v5"
 )

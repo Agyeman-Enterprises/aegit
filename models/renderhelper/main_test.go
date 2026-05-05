@@ -7,8 +7,8 @@ import (
 	"context"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/markup"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/markup"
 )
 
 func TestMain(m *testing.M) {

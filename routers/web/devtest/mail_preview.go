@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/mailer"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/mailer"
 
 	"gopkg.in/yaml.v3"
 )

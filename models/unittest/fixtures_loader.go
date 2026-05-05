@@ -12,7 +12,7 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
+	"code.aegit.io/aegit/models/db"
 
 	"gopkg.in/yaml.v3"
 	"xorm.io/xorm"

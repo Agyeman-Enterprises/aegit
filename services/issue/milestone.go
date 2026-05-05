@@ -8,10 +8,10 @@ import (
 	"errors"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	user_model "code.gitea.io/gitea/models/user"
-	notify_service "code.gitea.io/gitea/services/notify"
+	"code.aegit.io/aegit/models/db"
+	issues_model "code.aegit.io/aegit/models/issues"
+	user_model "code.aegit.io/aegit/models/user"
+	notify_service "code.aegit.io/aegit/services/notify"
 )
 
 func changeMilestoneAssign(ctx context.Context, doer *user_model.User, issue *issues_model.Issue, oldMilestoneID int64) error {

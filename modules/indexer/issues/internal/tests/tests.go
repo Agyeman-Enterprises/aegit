@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/indexer/issues/internal"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/indexer/issues/internal"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

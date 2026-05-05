@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"xorm.io/xorm"
 )

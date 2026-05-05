@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	perm_model "code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/services/contexttest"
+	perm_model "code.aegit.io/aegit/models/perm"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

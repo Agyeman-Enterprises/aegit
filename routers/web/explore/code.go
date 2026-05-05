@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"slices"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	code_indexer "code.gitea.io/gitea/modules/indexer/code"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/db"
+	repo_model "code.aegit.io/aegit/models/repo"
+	code_indexer "code.aegit.io/aegit/modules/indexer/code"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/routers/common"
+	"code.aegit.io/aegit/services/context"
 )
 
 const (

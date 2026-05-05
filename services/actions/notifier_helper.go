@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2022 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -10,23 +11,23 @@ import (
 	"slices"
 	"strings"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	issues_model "code.gitea.io/gitea/models/issues"
-	packages_model "code.gitea.io/gitea/models/packages"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	unit_model "code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
-	actions_module "code.gitea.io/gitea/modules/actions"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
-	"code.gitea.io/gitea/services/convert"
+	actions_model "code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	issues_model "code.aegit.io/aegit/models/issues"
+	packages_model "code.aegit.io/aegit/models/packages"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	repo_model "code.aegit.io/aegit/models/repo"
+	unit_model "code.aegit.io/aegit/models/unit"
+	user_model "code.aegit.io/aegit/models/user"
+	actions_module "code.aegit.io/aegit/modules/actions"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	api "code.aegit.io/aegit/modules/structs"
+	webhook_module "code.aegit.io/aegit/modules/webhook"
+	"code.aegit.io/aegit/services/convert"
 
 	"github.com/nektos/act/pkg/model"
 )

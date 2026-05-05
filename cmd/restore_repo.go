@@ -7,8 +7,8 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/private"
+	"code.aegit.io/aegit/modules/setting"
 
 	"github.com/urfave/cli/v3"
 )

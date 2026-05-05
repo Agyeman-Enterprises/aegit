@@ -6,11 +6,11 @@ package avatars_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"code.aegit.io/aegit/models/unittest"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/activities"
-	_ "code.gitea.io/gitea/models/perm/access"
+	_ "code.aegit.io/aegit/models"
+	_ "code.aegit.io/aegit/models/activities"
+	_ "code.aegit.io/aegit/models/perm/access"
 )
 
 func TestMain(m *testing.M) {

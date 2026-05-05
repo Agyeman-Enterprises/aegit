@@ -6,7 +6,7 @@ package v1_18
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models/issues"
+	"code.aegit.io/aegit/models/issues"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

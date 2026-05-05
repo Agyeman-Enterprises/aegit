@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2026 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -7,8 +8,8 @@ import (
 	"context"
 	"sync"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	user_model "code.gitea.io/gitea/models/user"
+	packages_model "code.aegit.io/aegit/models/packages"
+	user_model "code.aegit.io/aegit/models/user"
 )
 
 type nop struct{}

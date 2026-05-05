@@ -10,12 +10,12 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/models/avatars"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/avatars"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/modules/htmlutil"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 )

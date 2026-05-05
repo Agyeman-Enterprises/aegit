@@ -7,17 +7,17 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/migration"
-	"code.gitea.io/gitea/modules/secret"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/db"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/migration"
+	"code.aegit.io/aegit/modules/secret"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/timeutil"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // Task represents a task

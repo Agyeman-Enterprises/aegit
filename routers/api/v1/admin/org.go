@@ -7,14 +7,14 @@ package admin
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/organization"
+	user_model "code.aegit.io/aegit/models/user"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/routers/api/v1/utils"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
 )
 
 // CreateOrg api for create organization

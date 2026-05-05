@@ -7,10 +7,10 @@ import (
 	"context"
 	"strings"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/util"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/util"
 )
 
 type CompareRouterReq struct {

@@ -6,11 +6,11 @@ package actions
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/perm"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/xorm/convert"
 )

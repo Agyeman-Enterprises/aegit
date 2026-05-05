@@ -7,10 +7,10 @@ import (
 	"encoding/base64"
 	"net/http"
 
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	repo_service "code.gitea.io/gitea/services/repository"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/services/context"
+	repo_service "code.aegit.io/aegit/services/repository"
 )
 
 // UpdateVatar updates the Avatar of an Repo

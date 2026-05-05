@@ -6,12 +6,12 @@ package feed
 import (
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/renderhelper"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/services/context"
-	feed_service "code.gitea.io/gitea/services/feed"
+	activities_model "code.aegit.io/aegit/models/activities"
+	"code.aegit.io/aegit/models/organization"
+	"code.aegit.io/aegit/models/renderhelper"
+	"code.aegit.io/aegit/modules/markup/markdown"
+	"code.aegit.io/aegit/services/context"
+	feed_service "code.aegit.io/aegit/services/feed"
 
 	"github.com/gorilla/feeds"
 )

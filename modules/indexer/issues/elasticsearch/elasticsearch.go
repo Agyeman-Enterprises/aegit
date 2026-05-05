@@ -8,12 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/indexer"
-	indexer_internal "code.gitea.io/gitea/modules/indexer/internal"
-	es "code.gitea.io/gitea/modules/indexer/internal/elasticsearch"
-	"code.gitea.io/gitea/modules/indexer/issues/internal"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/indexer"
+	indexer_internal "code.aegit.io/aegit/modules/indexer/internal"
+	es "code.aegit.io/aegit/modules/indexer/internal/elasticsearch"
+	"code.aegit.io/aegit/modules/indexer/issues/internal"
+	"code.aegit.io/aegit/modules/util"
 )
 
 const issueIndexerLatestVersion = 3

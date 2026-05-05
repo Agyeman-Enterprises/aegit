@@ -6,19 +6,19 @@ package repo
 import (
 	"net/http"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/services/attachment"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/context/upload"
-	repo_service "code.gitea.io/gitea/services/repository"
+	issues_model "code.aegit.io/aegit/models/issues"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/httpcache"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/storage"
+	"code.aegit.io/aegit/services/attachment"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/context/upload"
+	repo_service "code.aegit.io/aegit/services/repository"
 )
 
 // UploadIssueAttachment response for Issue/PR attachments

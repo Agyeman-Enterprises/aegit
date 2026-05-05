@@ -6,14 +6,14 @@ package setting
 import (
 	"net/http"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	asymkey_model "code.aegit.io/aegit/models/asymkey"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/web"
+	asymkey_service "code.aegit.io/aegit/services/asymkey"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/forms"
 )
 
 // DeployKeys render the deploy keys list of a repository page

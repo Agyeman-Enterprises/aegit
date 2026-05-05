@@ -7,9 +7,9 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/packages"
-	conda_module "code.gitea.io/gitea/modules/packages/conda"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/packages"
+	conda_module "code.aegit.io/aegit/modules/packages/conda"
 
 	"xorm.io/builder"
 )

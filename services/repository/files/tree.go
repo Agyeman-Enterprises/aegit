@@ -12,13 +12,13 @@ import (
 	"sort"
 	"strings"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/fileicon"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/fileicon"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // ErrSHANotFound represents a "SHADoesNotMatch" kind of error.

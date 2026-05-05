@@ -14,12 +14,12 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	alpine_module "code.gitea.io/gitea/modules/packages/alpine"
-	alpine_service "code.gitea.io/gitea/services/packages/alpine"
-	"code.gitea.io/gitea/tests"
+	"code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	alpine_module "code.aegit.io/aegit/modules/packages/alpine"
+	alpine_service "code.aegit.io/aegit/services/packages/alpine"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 )

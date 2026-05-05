@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // TreeEntry the leaf in the git tree

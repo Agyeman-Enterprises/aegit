@@ -6,12 +6,12 @@ package mailer
 import (
 	"testing"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/test"
+	sender_service "code.aegit.io/aegit/services/mailer/sender"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

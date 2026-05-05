@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"io"
 
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // DummySender Sender sendmail mail sender

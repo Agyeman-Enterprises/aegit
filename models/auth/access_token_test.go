@@ -6,9 +6,9 @@ package auth_test
 import (
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
+	auth_model "code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/unittest"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2023 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -10,18 +11,18 @@ import (
 	"path"
 	"strings"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	git_model "code.gitea.io/gitea/models/git"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	actions_module "code.gitea.io/gitea/modules/actions"
-	"code.gitea.io/gitea/modules/actions/jobparser"
-	"code.gitea.io/gitea/modules/commitstatus"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
-	commitstatus_service "code.gitea.io/gitea/services/repository/commitstatus"
+	actions_model "code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	git_model "code.aegit.io/aegit/models/git"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	actions_module "code.aegit.io/aegit/modules/actions"
+	"code.aegit.io/aegit/modules/actions/jobparser"
+	"code.aegit.io/aegit/modules/commitstatus"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/util"
+	webhook_module "code.aegit.io/aegit/modules/webhook"
+	commitstatus_service "code.aegit.io/aegit/services/repository/commitstatus"
 )
 
 // CreateCommitStatusForRunJobs creates a commit status for the given job if it has a supported event and related commit.

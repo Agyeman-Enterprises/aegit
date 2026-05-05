@@ -12,15 +12,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	git_model "code.gitea.io/gitea/models/git"
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/glob"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/util"
+	git_model "code.aegit.io/aegit/models/git"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/modules/glob"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/process"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // DownloadDiffOrPatch will write the patch for the pr to the writer

@@ -17,12 +17,12 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
+	"code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/storage"
 )
 
 type saveUploadChunkOptions struct {

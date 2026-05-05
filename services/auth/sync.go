@@ -6,9 +6,9 @@ package auth
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // SyncExternalUsers is used to synchronize users with external authorization source

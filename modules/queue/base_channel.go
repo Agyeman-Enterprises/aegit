@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/container"
+	"code.aegit.io/aegit/modules/container"
 )
 
 var errChannelClosed = errors.New("channel is closed")

@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/nosql"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/nosql"
 
 	"gitea.com/go-chi/session"
 	"github.com/redis/go-redis/v9"

@@ -6,7 +6,7 @@ package v1_14
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/migrations/base"
+	"code.aegit.io/aegit/models/migrations/base"
 
 	"xorm.io/xorm"
 )

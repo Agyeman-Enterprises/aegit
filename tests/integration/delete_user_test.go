@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/organization"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/tests"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/models/organization"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/tests"
 )
 
 func assertUserDeleted(t *testing.T, userID int64) {

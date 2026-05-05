@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"code.gitea.io/gitea/models/db"
-	issue_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/indexer/issues/internal"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/queue"
+	"code.aegit.io/aegit/models/db"
+	issue_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/indexer/issues/internal"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/queue"
 )
 
 // getIssueIndexerData returns the indexer data of an issue and a bool value indicating whether the issue exists.

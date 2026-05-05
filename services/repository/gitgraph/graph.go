@@ -7,9 +7,9 @@ import (
 	"bufio"
 	"bytes"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // GetCommitGraph return a list of commit (GraphItems) from all branches

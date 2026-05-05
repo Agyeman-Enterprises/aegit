@@ -6,10 +6,10 @@ package db_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"code.aegit.io/aegit/models/unittest"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/repo"
+	_ "code.aegit.io/aegit/models"
+	_ "code.aegit.io/aegit/models/repo"
 )
 
 func TestMain(m *testing.M) {

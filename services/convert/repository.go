@@ -7,15 +7,15 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	repo_model "code.gitea.io/gitea/models/repo"
-	unit_model "code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/log"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/db"
+	git_model "code.aegit.io/aegit/models/git"
+	"code.aegit.io/aegit/models/perm"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	repo_model "code.aegit.io/aegit/models/repo"
+	unit_model "code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/log"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // ToRepo converts a Repository to api.Repository

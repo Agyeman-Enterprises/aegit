@@ -10,9 +10,9 @@ import (
 	"html/template"
 	"reflect"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 func dictMerge(base map[string]any, arg any) bool {

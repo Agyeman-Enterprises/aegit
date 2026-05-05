@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	activities_model "code.aegit.io/aegit/models/activities"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
 )
 
 // ListNotifications list users's notification threads

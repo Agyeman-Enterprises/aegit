@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/services/auth/source/ldap"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/modules/test"
+	"code.aegit.io/aegit/services/auth/source/ldap"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v3"

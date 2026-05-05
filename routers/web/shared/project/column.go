@@ -4,9 +4,9 @@
 package project
 
 import (
-	project_model "code.gitea.io/gitea/models/project"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/services/context"
+	project_model "code.aegit.io/aegit/models/project"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/services/context"
 )
 
 // MoveColumns moves or keeps columns in a project and sorts them inside that project

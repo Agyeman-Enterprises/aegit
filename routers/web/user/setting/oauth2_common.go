@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web"
-	shared_user "code.gitea.io/gitea/routers/web/shared/user"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/modules/web"
+	shared_user "code.aegit.io/aegit/routers/web/shared/user"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/forms"
 )
 
 type OAuth2CommonHandlers struct {

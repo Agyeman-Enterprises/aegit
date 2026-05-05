@@ -6,10 +6,10 @@ package user
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/timeutil"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/builder"
 )

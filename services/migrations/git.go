@@ -6,7 +6,7 @@ package migrations
 import (
 	"context"
 
-	base "code.gitea.io/gitea/modules/migration"
+	base "code.aegit.io/aegit/modules/migration"
 )
 
 var _ base.Downloader = &PlainGitDownloader{}

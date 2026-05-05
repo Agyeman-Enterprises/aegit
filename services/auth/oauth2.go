@@ -11,16 +11,16 @@ import (
 	"strings"
 	"time"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	auth_model "code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/auth/httpauth"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/actions"
-	"code.gitea.io/gitea/services/oauth2_provider"
+	actions_model "code.aegit.io/aegit/models/actions"
+	auth_model "code.aegit.io/aegit/models/auth"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/auth/httpauth"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/timeutil"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/actions"
+	"code.aegit.io/aegit/services/oauth2_provider"
 )
 
 var _ Method = &OAuth2{}

@@ -7,12 +7,12 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/organization"
+	"code.aegit.io/aegit/models/perm"
+	"code.aegit.io/aegit/models/unit"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
 
 	"xorm.io/builder"
 )

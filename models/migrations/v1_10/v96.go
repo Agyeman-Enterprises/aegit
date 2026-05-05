@@ -6,8 +6,8 @@ package v1_10
 import (
 	"path/filepath"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/xorm"
 )

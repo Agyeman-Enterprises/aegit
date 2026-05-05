@@ -4,8 +4,8 @@
 package v1_17
 
 import (
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"xorm.io/xorm"
 	"xorm.io/xorm/schemas"

@@ -6,9 +6,9 @@ package misc
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/services/context"
 )
 
 // Version shows the version of the Gitea server

@@ -13,11 +13,11 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/proxyprotocol"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/proxyprotocol"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // Response is used for internal request response (for user message and error message)

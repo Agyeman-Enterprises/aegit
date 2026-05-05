@@ -8,14 +8,14 @@ import (
 	"fmt"
 	"strings"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	"code.gitea.io/gitea/models/db"
-	actions_module "code.gitea.io/gitea/modules/actions"
-	"code.gitea.io/gitea/modules/log"
-	secret_module "code.gitea.io/gitea/modules/secret"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	actions_model "code.aegit.io/aegit/models/actions"
+	"code.aegit.io/aegit/models/db"
+	actions_module "code.aegit.io/aegit/modules/actions"
+	"code.aegit.io/aegit/modules/log"
+	secret_module "code.aegit.io/aegit/modules/secret"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/timeutil"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/builder"
 )

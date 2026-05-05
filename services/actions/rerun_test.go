@@ -6,9 +6,9 @@ package actions
 import (
 	"testing"
 
-	actions_model "code.gitea.io/gitea/models/actions"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/util"
+	actions_model "code.aegit.io/aegit/models/actions"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

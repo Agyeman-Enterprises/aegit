@@ -10,10 +10,10 @@ import (
 	"net/textproto"
 	"strings"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/util"
+	auth_model "code.aegit.io/aegit/models/auth"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // Authenticate queries if the provided login/password is authenticates against the SMTP server

@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/user"
+	"code.aegit.io/aegit/models/db"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/user"
 )
 
 const (

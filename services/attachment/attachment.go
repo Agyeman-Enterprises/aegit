@@ -11,12 +11,12 @@ import (
 	"io"
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context/upload"
+	"code.aegit.io/aegit/models/db"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/storage"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/context/upload"
 
 	"github.com/google/uuid"
 )

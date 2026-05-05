@@ -6,12 +6,12 @@ package user
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/optional"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	user_service "code.gitea.io/gitea/services/user"
+	"code.aegit.io/aegit/modules/optional"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
+	user_service "code.aegit.io/aegit/services/user"
 )
 
 // GetUserSettings returns user settings

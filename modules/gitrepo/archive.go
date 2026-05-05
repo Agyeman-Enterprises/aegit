@@ -13,8 +13,8 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // CreateArchive create archive content to the target path

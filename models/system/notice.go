@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/storage"
+	"code.aegit.io/aegit/modules/timeutil"
 )
 
 // NoticeType describes the notice type

@@ -11,7 +11,7 @@ import (
 	"slices"
 	"sync"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

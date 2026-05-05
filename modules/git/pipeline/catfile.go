@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/git/gitcmd"
 )
 
 // CatFileBatchCheck runs cat-file with --batch-check

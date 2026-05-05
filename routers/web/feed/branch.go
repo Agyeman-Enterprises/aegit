@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/services/context"
 
 	"github.com/gorilla/feeds"
 )

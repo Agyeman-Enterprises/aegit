@@ -14,9 +14,9 @@ import (
 	"syscall"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/proxyprotocol"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/proxyprotocol"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // GetListener returns a net listener

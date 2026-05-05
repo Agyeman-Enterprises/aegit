@@ -11,8 +11,8 @@ import (
 	"io"
 	"os"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/storage"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/storage"
 )
 
 var (

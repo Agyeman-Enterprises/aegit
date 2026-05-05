@@ -6,12 +6,12 @@ package admin
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/cron"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/routers/api/v1/utils"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/cron"
 )
 
 // ListCronTasks api for getting cron tasks

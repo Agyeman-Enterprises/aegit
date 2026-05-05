@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2026 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -6,9 +7,9 @@ package terraform
 import (
 	"context"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/optional"
-	terraform_module "code.gitea.io/gitea/modules/packages/terraform"
+	packages_model "code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/modules/optional"
+	terraform_module "code.aegit.io/aegit/modules/packages/terraform"
 )
 
 // IsLocked is a helper function to check if the terraform state is locked

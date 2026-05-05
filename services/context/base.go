@@ -12,14 +12,14 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/reqctx"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/translation"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/modules/web/middleware"
 )
 
 type BaseContextKeyType struct{}

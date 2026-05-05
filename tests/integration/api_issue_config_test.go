@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"testing"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/tests"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"

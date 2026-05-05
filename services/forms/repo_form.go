@@ -8,14 +8,14 @@ import (
 	"net/http"
 	"strings"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	project_model "code.gitea.io/gitea/models/project"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/webhook"
+	issues_model "code.aegit.io/aegit/models/issues"
+	project_model "code.aegit.io/aegit/models/project"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/modules/web/middleware"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/webhook"
 
 	"gitea.com/go-chi/binding"
 )

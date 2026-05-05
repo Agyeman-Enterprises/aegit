@@ -1,11 +1,12 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2025 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
 package admin
 
 import (
-	"code.gitea.io/gitea/routers/api/v1/shared"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/routers/api/v1/shared"
+	"code.aegit.io/aegit/services/context"
 )
 
 // ListWorkflowJobs Lists all jobs

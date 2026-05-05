@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"testing"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	code_indexer "code.gitea.io/gitea/modules/indexer/code"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/tests"
+	repo_model "code.aegit.io/aegit/models/repo"
+	code_indexer "code.aegit.io/aegit/modules/indexer/code"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/stretchr/testify/assert"

@@ -11,8 +11,8 @@ import (
 	"image/color"
 	"image/png"
 
-	"code.gitea.io/gitea/modules/avatar/identicon"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/avatar/identicon"
+	"code.aegit.io/aegit/modules/setting"
 
 	_ "golang.org/x/image/webp" // for processing webp images
 	_ "image/gif"               // for processing gif images

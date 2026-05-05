@@ -6,7 +6,7 @@ package gitrepo
 import (
 	"context"
 
-	"code.gitea.io/gitea/modules/git"
+	"code.aegit.io/aegit/modules/git"
 )
 
 // IsTagExist returns true if given tag exists in the repository.

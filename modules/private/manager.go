@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // Shutdown calls the internal shutdown function

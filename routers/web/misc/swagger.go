@@ -6,7 +6,7 @@ package misc
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/services/context"
 )
 
 func Swagger(ctx *context.Context) {

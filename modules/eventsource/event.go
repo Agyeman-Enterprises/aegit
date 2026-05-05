@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/json"
 )
 
 func wrapNewlines(w io.Writer, prefix, value []byte) (sum int64, err error) {

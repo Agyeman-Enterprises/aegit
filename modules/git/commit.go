@@ -11,8 +11,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // Commit represents a git commit.

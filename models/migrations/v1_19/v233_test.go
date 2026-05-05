@@ -6,11 +6,11 @@ package v1_19
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/migrationtest"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/secret"
-	"code.gitea.io/gitea/modules/setting"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"code.aegit.io/aegit/models/migrations/migrationtest"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/secret"
+	"code.aegit.io/aegit/modules/setting"
+	webhook_module "code.aegit.io/aegit/modules/webhook"
 
 	"github.com/stretchr/testify/assert"
 )

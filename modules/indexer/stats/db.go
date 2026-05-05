@@ -6,14 +6,14 @@ package stats
 import (
 	"fmt"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/languagestats"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/setting"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/languagestats"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/process"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // DBIndexer implements Indexer interface to use database's like search

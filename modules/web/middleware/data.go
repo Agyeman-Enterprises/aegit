@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/reqctx"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 const ContextDataKeySignedUser = "SignedUser"

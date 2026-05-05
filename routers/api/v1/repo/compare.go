@@ -6,11 +6,11 @@ package repo
 import (
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/gitrepo"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/gitrepo"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
 )
 
 // CompareDiff compare two branches or commits

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // ExternalMarkupRenderers represents the external markup renderers

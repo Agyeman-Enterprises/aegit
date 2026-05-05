@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/git/gitcmd"
 )
 
 // CodeActivityStats represents git statistics data

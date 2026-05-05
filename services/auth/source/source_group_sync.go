@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	org_service "code.gitea.io/gitea/services/org"
+	"code.aegit.io/aegit/models/organization"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/log"
+	org_service "code.aegit.io/aegit/services/org"
 )
 
 type syncType int

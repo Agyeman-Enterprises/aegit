@@ -6,14 +6,14 @@ package auth
 import (
 	"fmt"
 
-	asymkey_model "code.gitea.io/gitea/models/asymkey"
-	"code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
-	"code.gitea.io/gitea/services/auth/source/oauth2"
-	"code.gitea.io/gitea/services/context"
+	asymkey_model "code.aegit.io/aegit/models/asymkey"
+	"code.aegit.io/aegit/models/auth"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/util"
+	asymkey_service "code.aegit.io/aegit/services/asymkey"
+	"code.aegit.io/aegit/services/auth/source/oauth2"
+	"code.aegit.io/aegit/services/context"
 
 	"github.com/markbates/goth"
 )

@@ -10,16 +10,16 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/cmd"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/cmd"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
 
 	// register supported doc types
-	_ "code.gitea.io/gitea/modules/markup/asciicast"
-	_ "code.gitea.io/gitea/modules/markup/console"
-	_ "code.gitea.io/gitea/modules/markup/csv"
-	_ "code.gitea.io/gitea/modules/markup/markdown"
-	_ "code.gitea.io/gitea/modules/markup/orgmode"
+	_ "code.aegit.io/aegit/modules/markup/asciicast"
+	_ "code.aegit.io/aegit/modules/markup/console"
+	_ "code.aegit.io/aegit/modules/markup/csv"
+	_ "code.aegit.io/aegit/modules/markup/markdown"
+	_ "code.aegit.io/aegit/modules/markup/orgmode"
 
 	"github.com/urfave/cli/v3"
 )

@@ -13,16 +13,16 @@ import (
 	"path/filepath"
 	"strings"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	system_model "code.gitea.io/gitea/models/system"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/hostmatcher"
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	repo_model "code.aegit.io/aegit/models/repo"
+	system_model "code.aegit.io/aegit/models/system"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/hostmatcher"
+	"code.aegit.io/aegit/modules/log"
+	base "code.aegit.io/aegit/modules/migration"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // MigrateOptions is equal to base.MigrateOptions

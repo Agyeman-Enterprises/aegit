@@ -15,11 +15,11 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/cmd"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/cmd"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/test"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli/v3"

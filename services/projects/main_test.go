@@ -6,10 +6,10 @@ package project
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"code.aegit.io/aegit/models/unittest"
 
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
+	_ "code.aegit.io/aegit/models/actions"
+	_ "code.aegit.io/aegit/models/activities"
 )
 
 func TestMain(m *testing.M) {

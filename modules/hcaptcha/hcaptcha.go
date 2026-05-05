@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 const verifyURL = "https://hcaptcha.com/siteverify"

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // Signature represents the Author, Committer or Tagger information.

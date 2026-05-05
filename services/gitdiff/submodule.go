@@ -7,10 +7,10 @@ import (
 	"context"
 	"html/template"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/base"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/htmlutil"
+	"code.aegit.io/aegit/modules/log"
 )
 
 type SubmoduleDiffInfo struct {

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"net/url"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/repository"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // Git environment variables

@@ -19,15 +19,15 @@ import (
 	"strconv"
 	"strings"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/globallock"
-	"code.gitea.io/gitea/modules/json"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	maven_module "code.gitea.io/gitea/modules/packages/maven"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/modules/globallock"
+	"code.aegit.io/aegit/modules/json"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	maven_module "code.aegit.io/aegit/modules/packages/maven"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/routers/api/packages/helper"
+	"code.aegit.io/aegit/services/context"
+	packages_service "code.aegit.io/aegit/services/packages"
 )
 
 const (

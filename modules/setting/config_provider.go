@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/util"
 
 	"gopkg.in/ini.v1" //nolint:depguard // wrapper for this package
 )

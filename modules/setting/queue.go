@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // QueueSettings represent the settings for a queue from the ini

@@ -7,13 +7,13 @@ import (
 	"errors"
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	user_service "code.gitea.io/gitea/services/user"
+	user_model "code.aegit.io/aegit/models/user"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/routers/api/v1/utils"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
+	user_service "code.aegit.io/aegit/services/user"
 )
 
 func ListBlocks(ctx *context.APIContext, blocker *user_model.User) {

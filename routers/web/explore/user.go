@@ -7,17 +7,17 @@ import (
 	"bytes"
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/sitemap"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/db"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/sitemap"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/context"
 )
 
 const (

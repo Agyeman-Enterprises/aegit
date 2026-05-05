@@ -7,7 +7,7 @@ package migration
 import (
 	"context"
 
-	"code.gitea.io/gitea/modules/structs"
+	"code.aegit.io/aegit/modules/structs"
 )
 
 // Downloader downloads the site repo information

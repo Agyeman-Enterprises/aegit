@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"code.gitea.io/gitea/modules/eventsource"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/routers/web/auth"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/eventsource"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/routers/web/auth"
+	"code.aegit.io/aegit/services/context"
 )
 
 // Events listens for events

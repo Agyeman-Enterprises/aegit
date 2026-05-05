@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2020 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -9,10 +10,10 @@ import (
 	"fmt"
 	"regexp"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/timeutil"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/builder"
 )

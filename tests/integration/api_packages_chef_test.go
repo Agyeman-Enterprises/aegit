@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
-	"code.gitea.io/gitea/modules/setting"
-	chef_router "code.gitea.io/gitea/routers/api/packages/chef"
-	"code.gitea.io/gitea/tests"
+	"code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	chef_module "code.aegit.io/aegit/modules/packages/chef"
+	"code.aegit.io/aegit/modules/setting"
+	chef_router "code.aegit.io/aegit/routers/api/packages/chef"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 )

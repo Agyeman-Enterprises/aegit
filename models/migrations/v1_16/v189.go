@@ -7,8 +7,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/models/migrations/base"
+	"code.aegit.io/aegit/modules/json"
 
 	"xorm.io/xorm"
 )

@@ -13,16 +13,16 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/optional"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	"code.aegit.io/aegit/models/db"
+	packages_model "code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/modules/optional"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	chef_module "code.aegit.io/aegit/modules/packages/chef"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/routers/api/packages/helper"
+	"code.aegit.io/aegit/services/context"
+	packages_service "code.aegit.io/aegit/services/packages"
 )
 
 func apiError(ctx *context.Context, status int, obj any) {

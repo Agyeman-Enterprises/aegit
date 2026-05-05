@@ -4,7 +4,7 @@
 package v1_13
 
 import (
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"xorm.io/xorm"
 )

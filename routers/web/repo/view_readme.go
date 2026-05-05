@@ -13,14 +13,14 @@ import (
 	"path"
 	"strings"
 
-	"code.gitea.io/gitea/models/renderhelper"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/charset"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/renderhelper"
+	"code.aegit.io/aegit/modules/base"
+	"code.aegit.io/aegit/modules/charset"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/context"
 )
 
 // locate a README for a tree in one of the supported paths.

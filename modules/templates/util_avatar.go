@@ -9,14 +9,14 @@ import (
 	"html/template"
 	"strconv"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	"code.gitea.io/gitea/models/avatars"
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	gitea_html "code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	activities_model "code.aegit.io/aegit/models/activities"
+	"code.aegit.io/aegit/models/avatars"
+	"code.aegit.io/aegit/models/organization"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	gitea_html "code.aegit.io/aegit/modules/htmlutil"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 )
 
 type AvatarUtils struct {

@@ -6,11 +6,11 @@ package markup
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/contexttest"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 )

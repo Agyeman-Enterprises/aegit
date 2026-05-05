@@ -4,8 +4,8 @@
 package convert
 
 import (
-	project_model "code.gitea.io/gitea/models/project"
-	api "code.gitea.io/gitea/modules/structs"
+	project_model "code.aegit.io/aegit/models/project"
+	api "code.aegit.io/aegit/modules/structs"
 )
 
 // ToAPIProject converts a Project to API format

@@ -5,7 +5,7 @@
 package git
 
 import (
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/git/gitcmd"
 )
 
 // BranchPrefix base dir of the branch information file store on git

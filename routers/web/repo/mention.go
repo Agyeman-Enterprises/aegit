@@ -7,12 +7,12 @@ import (
 	"errors"
 	"net/http"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/util"
-	shared_mention "code.gitea.io/gitea/routers/web/shared/mention"
-	"code.gitea.io/gitea/services/context"
+	issues_model "code.aegit.io/aegit/models/issues"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/util"
+	shared_mention "code.aegit.io/aegit/routers/web/shared/mention"
+	"code.aegit.io/aegit/services/context"
 )
 
 // GetMentionsInRepo returns JSON data for mention autocomplete (assignees, participants, mentionable teams).

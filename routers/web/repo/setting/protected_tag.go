@@ -8,17 +8,17 @@ import (
 	"net/http"
 	"strings"
 
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	git_model "code.aegit.io/aegit/models/git"
+	"code.aegit.io/aegit/models/organization"
+	"code.aegit.io/aegit/models/perm"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/base"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/forms"
 )
 
 const (

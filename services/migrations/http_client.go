@@ -7,9 +7,9 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/hostmatcher"
-	"code.gitea.io/gitea/modules/proxy"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/hostmatcher"
+	"code.aegit.io/aegit/modules/proxy"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // NewMigrationHTTPClient returns a HTTP client for migration

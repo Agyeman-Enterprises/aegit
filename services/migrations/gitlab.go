@@ -15,12 +15,12 @@ import (
 	"strings"
 	"time"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	base "code.gitea.io/gitea/modules/migration"
-	"code.gitea.io/gitea/modules/structs"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/log"
+	base "code.aegit.io/aegit/modules/migration"
+	"code.aegit.io/aegit/modules/structs"
 
 	gitlab "gitlab.com/gitlab-org/api/client-go"
 )

@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2020 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -7,8 +8,8 @@ import (
 	"context"
 	"errors"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // ProjectIssue saves relation from issue to a project

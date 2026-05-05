@@ -11,12 +11,12 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/common"
-	"code.gitea.io/gitea/modules/markup/markdown/math"
-	"code.gitea.io/gitea/modules/setting"
-	giteautil "code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/modules/markup/common"
+	"code.aegit.io/aegit/modules/markup/markdown/math"
+	"code.aegit.io/aegit/modules/setting"
+	giteautil "code.aegit.io/aegit/modules/util"
 
 	chromahtml "github.com/alecthomas/chroma/v2/formatters/html"
 	"github.com/yuin/goldmark"

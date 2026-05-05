@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/validation"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/base"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/modules/validation"
 
 	"xorm.io/builder"
 )

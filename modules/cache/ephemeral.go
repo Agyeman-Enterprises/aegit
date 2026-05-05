@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // EphemeralCache is a cache that can be used to store data in a request level context

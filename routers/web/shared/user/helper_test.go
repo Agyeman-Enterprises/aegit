@@ -6,7 +6,7 @@ package user
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/user"
+	"code.aegit.io/aegit/models/user"
 
 	"github.com/stretchr/testify/assert"
 )

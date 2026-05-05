@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"testing"
 
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/test"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/modules/markup/markdown"
+	"code.aegit.io/aegit/modules/test"
 
 	"github.com/stretchr/testify/assert"
 )

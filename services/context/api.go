@@ -13,17 +13,17 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/models/unit"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web"
-	web_types "code.gitea.io/gitea/modules/web/types"
+	"code.aegit.io/aegit/models/unit"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/cache"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/modules/httpcache"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/modules/web"
+	web_types "code.aegit.io/aegit/modules/web/types"
 )
 
 // APIContext is a specific context for API service

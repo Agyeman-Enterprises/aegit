@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/routers/web"
-	"code.gitea.io/gitea/tests"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/test"
+	"code.aegit.io/aegit/routers"
+	"code.aegit.io/aegit/routers/web"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -7,15 +7,15 @@ package repo
 import (
 	"time"
 
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/storage"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/services/context"
+	git_model "code.aegit.io/aegit/models/git"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/httpcache"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/lfs"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/storage"
+	"code.aegit.io/aegit/routers/common"
+	"code.aegit.io/aegit/services/context"
 )
 
 // ServeBlobOrLFS download a git.Blob redirecting to LFS if necessary

@@ -1,14 +1,15 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2026 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
 package actions
 
 import (
-	"code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/actions/jobparser"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/models/perm"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/actions/jobparser"
+	"code.aegit.io/aegit/modules/setting"
 
 	"go.yaml.in/yaml/v4"
 )

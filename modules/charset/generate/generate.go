@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/json"
 
 	"golang.org/x/text/unicode/rangetable"
 )

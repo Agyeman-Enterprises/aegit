@@ -7,10 +7,10 @@ import (
 	"context"
 	"net/url"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/modules/log"
-	api "code.gitea.io/gitea/modules/structs"
+	activities_model "code.aegit.io/aegit/models/activities"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	"code.aegit.io/aegit/modules/log"
+	api "code.aegit.io/aegit/modules/structs"
 )
 
 // ToNotificationThread convert a Notification to api.NotificationThread

@@ -7,7 +7,7 @@ import (
 	"mime"
 	"strings"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 type ContentDispositionType string

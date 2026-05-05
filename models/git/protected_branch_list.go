@@ -7,9 +7,9 @@ import (
 	"context"
 	"sort"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/glob"
-	"code.gitea.io/gitea/modules/optional"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/glob"
+	"code.aegit.io/aegit/modules/optional"
 )
 
 type ProtectedBranchRules []*ProtectedBranch

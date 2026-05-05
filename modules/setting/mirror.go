@@ -6,7 +6,7 @@ package setting
 import (
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // Mirror settings

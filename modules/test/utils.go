@@ -13,8 +13,8 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // RedirectURL returns the redirect URL of a http response.

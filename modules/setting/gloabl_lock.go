@@ -4,8 +4,8 @@
 package setting
 
 import (
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/nosql"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/nosql"
 )
 
 // GlobalLock represents configuration of global lock

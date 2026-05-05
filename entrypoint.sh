@@ -11,11 +11,11 @@ mkdir -p /data/gitea/conf
 envsubst < /app/app.ini.template > /data/gitea/conf/app.ini
 
 # Create admin user (CLI, pre-server � writes direct to SQLite)
-gitea migrate --config /data/gitea/conf/app.ini
+aegit migrate --config /data/gitea/conf/app.ini
 /usr/local/bin/first-boot.sh
 
-# Start Gitea in background
-gitea web --config /data/gitea/conf/app.ini &
+# Start AeGit in background
+aegit web --config /data/gitea/conf/app.ini &
 GITEA_PID=$!
 trap 'kill $GITEA_PID 2>/dev/null' INT TERM
 

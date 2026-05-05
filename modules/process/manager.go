@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.gitea.io/gitea/modules/gtprof"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/gtprof"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // TODO: This packages still uses a singleton for the Manager.

@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/options"
+	"code.aegit.io/aegit/modules/options"
 )
 
 type LicenseValues struct {

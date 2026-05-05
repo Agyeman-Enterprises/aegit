@@ -7,11 +7,11 @@ package pull
 import (
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/gitrepo"
+	issues_model "code.aegit.io/aegit/models/issues"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/gitrepo"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -15,10 +15,10 @@ import (
 	"syscall"
 	"time"
 
-	"code.gitea.io/gitea/modules/graceful/releasereopen"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/graceful/releasereopen"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/process"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 func pidMsg() systemdNotifyMsg {

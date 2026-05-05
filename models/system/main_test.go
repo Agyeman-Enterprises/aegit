@@ -6,12 +6,12 @@ package system_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"code.aegit.io/aegit/models/unittest"
 
-	_ "code.gitea.io/gitea/models" // register models
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
-	_ "code.gitea.io/gitea/models/system" // register models of system
+	_ "code.aegit.io/aegit/models" // register models
+	_ "code.aegit.io/aegit/models/actions"
+	_ "code.aegit.io/aegit/models/activities"
+	_ "code.aegit.io/aegit/models/system" // register models of system
 )
 
 func TestMain(m *testing.M) {

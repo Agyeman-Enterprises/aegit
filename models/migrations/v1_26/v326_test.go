@@ -6,13 +6,13 @@ package v1_26
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/migrationtest"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/test"
+	"code.aegit.io/aegit/models/migrations/migrationtest"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/test"
 
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/git"
-	_ "code.gitea.io/gitea/models/repo"
+	_ "code.aegit.io/aegit/models/actions"
+	_ "code.aegit.io/aegit/models/git"
+	_ "code.aegit.io/aegit/models/repo"
 
 	"github.com/stretchr/testify/require"
 	"xorm.io/xorm"

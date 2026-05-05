@@ -3,7 +3,7 @@
 
 package swagger
 
-import api "code.gitea.io/gitea/modules/structs"
+import api "code.aegit.io/aegit/modules/structs"
 
 // GeneralRepoSettings
 // swagger:response GeneralRepoSettings

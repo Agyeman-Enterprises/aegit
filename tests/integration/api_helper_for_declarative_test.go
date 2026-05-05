@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/perm"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/queue"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/forms"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/models/perm"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/queue"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/services/forms"
 
 	"github.com/stretchr/testify/assert"
 )

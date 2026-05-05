@@ -9,11 +9,11 @@ import (
 	"bytes"
 	"io"
 
-	"code.gitea.io/gitea/modules/analyze"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/attribute"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
+	"code.aegit.io/aegit/modules/analyze"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/attribute"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
 
 	"github.com/go-enry/go-enry/v2"
 )

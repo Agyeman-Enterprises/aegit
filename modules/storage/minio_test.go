@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 
 	"github.com/minio/minio-go/v7"
 	"github.com/stretchr/testify/assert"

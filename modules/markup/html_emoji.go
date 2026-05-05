@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode"
 
-	"code.gitea.io/gitea/modules/emoji"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/emoji"
+	"code.aegit.io/aegit/modules/setting"
 
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"

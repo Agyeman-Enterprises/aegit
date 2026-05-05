@@ -15,12 +15,12 @@ import (
 	"strings"
 	"time"
 
-	charsetModule "code.gitea.io/gitea/modules/charset"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/httpcache"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/typesniffer"
-	"code.gitea.io/gitea/modules/util"
+	charsetModule "code.aegit.io/aegit/modules/charset"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/httpcache"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/typesniffer"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/klauspost/compress/gzhttp"
 )

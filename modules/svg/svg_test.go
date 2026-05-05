@@ -6,7 +6,7 @@ package svg
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/test"
+	"code.aegit.io/aegit/modules/test"
 
 	"github.com/stretchr/testify/assert"
 )

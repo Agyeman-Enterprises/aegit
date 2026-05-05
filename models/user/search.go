@@ -9,10 +9,10 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/structs"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/structs"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

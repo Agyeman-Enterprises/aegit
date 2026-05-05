@@ -6,8 +6,8 @@ package packages
 import (
 	"io"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util/filebuffer"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util/filebuffer"
 )
 
 // HashedSizeReader provide methods to read, sum hashes and a Size method

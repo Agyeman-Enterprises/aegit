@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strconv"
 
-	"code.gitea.io/gitea/models/user"
+	"code.aegit.io/aegit/models/user"
 )
 
 func MakeSelfOnTop(doer *user.User, users []*user.User) []*user.User {

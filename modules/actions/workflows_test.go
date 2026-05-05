@@ -6,11 +6,11 @@ package actions
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/test"
-	webhook_module "code.gitea.io/gitea/modules/webhook"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/setting"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/test"
+	webhook_module "code.aegit.io/aegit/modules/webhook"
 
 	"github.com/stretchr/testify/assert"
 )

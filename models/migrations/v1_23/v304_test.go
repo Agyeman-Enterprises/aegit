@@ -6,8 +6,8 @@ package v1_23
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/migrationtest"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/migrations/migrationtest"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"github.com/stretchr/testify/assert"
 )

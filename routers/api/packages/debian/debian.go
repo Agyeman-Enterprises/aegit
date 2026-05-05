@@ -11,16 +11,16 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
-	packages_model "code.gitea.io/gitea/models/packages"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	debian_module "code.gitea.io/gitea/modules/packages/debian"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	notify_service "code.gitea.io/gitea/services/notify"
-	packages_service "code.gitea.io/gitea/services/packages"
-	debian_service "code.gitea.io/gitea/services/packages/debian"
+	"code.aegit.io/aegit/models/db"
+	packages_model "code.aegit.io/aegit/models/packages"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	debian_module "code.aegit.io/aegit/modules/packages/debian"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/routers/api/packages/helper"
+	"code.aegit.io/aegit/services/context"
+	notify_service "code.aegit.io/aegit/services/notify"
+	packages_service "code.aegit.io/aegit/services/packages"
+	debian_service "code.aegit.io/aegit/services/packages/debian"
 )
 
 func apiError(ctx *context.Context, status int, obj any) {

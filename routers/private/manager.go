@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/graceful/releasereopen"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/queue"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/graceful/releasereopen"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/private"
+	"code.aegit.io/aegit/modules/queue"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/services/context"
 )
 
 // ReloadTemplates reloads all the templates

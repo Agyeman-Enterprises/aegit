@@ -11,8 +11,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/translation"
 )
 
 type htmlChunkReader struct {

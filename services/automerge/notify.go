@@ -6,14 +6,14 @@ package automerge
 import (
 	"context"
 
-	git_model "code.gitea.io/gitea/models/git"
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/services/automergequeue"
-	notify_service "code.gitea.io/gitea/services/notify"
+	git_model "code.aegit.io/aegit/models/git"
+	issues_model "code.aegit.io/aegit/models/issues"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/repository"
+	"code.aegit.io/aegit/services/automergequeue"
+	notify_service "code.aegit.io/aegit/services/notify"
 )
 
 type automergeNotifier struct {

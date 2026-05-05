@@ -6,14 +6,14 @@ package repo_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
+	"code.aegit.io/aegit/models/unittest"
 
-	_ "code.gitea.io/gitea/models" // register table model
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
-	_ "code.gitea.io/gitea/models/perm/access" // register table model
-	_ "code.gitea.io/gitea/models/repo"        // register table model
-	_ "code.gitea.io/gitea/models/user"        // register table model
+	_ "code.aegit.io/aegit/models" // register table model
+	_ "code.aegit.io/aegit/models/actions"
+	_ "code.aegit.io/aegit/models/activities"
+	_ "code.aegit.io/aegit/models/perm/access" // register table model
+	_ "code.aegit.io/aegit/models/repo"        // register table model
+	_ "code.aegit.io/aegit/models/user"        // register table model
 )
 
 func TestMain(m *testing.M) {

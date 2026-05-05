@@ -6,10 +6,10 @@ package repo
 import (
 	"net/http"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	issues_model "code.aegit.io/aegit/models/issues"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/services/context"
 )
 
 // AddDependency adds new dependencies

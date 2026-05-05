@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/webtheme"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/modules/web/middleware"
+	"code.aegit.io/aegit/services/webtheme"
 )
 
 type TemplateContext map[string]any

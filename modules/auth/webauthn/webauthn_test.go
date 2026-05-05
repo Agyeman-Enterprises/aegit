@@ -6,7 +6,7 @@ package webauthn
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 
 	"github.com/stretchr/testify/assert"
 )

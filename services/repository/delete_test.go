@@ -6,11 +6,11 @@ package repository_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/organization"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"code.aegit.io/aegit/models/organization"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	repo_service "code.aegit.io/aegit/services/repository"
 
 	"github.com/stretchr/testify/assert"
 )

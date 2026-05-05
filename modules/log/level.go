@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"strings"
 
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/json"
 )
 
 // Level is the level of the logger

@@ -6,11 +6,11 @@ package doctor
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	org_model "code.gitea.io/gitea/models/organization"
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/modules/log"
-	org_service "code.gitea.io/gitea/services/org"
+	"code.aegit.io/aegit/models/db"
+	org_model "code.aegit.io/aegit/models/organization"
+	"code.aegit.io/aegit/models/perm"
+	"code.aegit.io/aegit/modules/log"
+	org_service "code.aegit.io/aegit/services/org"
 
 	"xorm.io/builder"
 )

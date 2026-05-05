@@ -8,8 +8,8 @@ import (
 	"errors"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/gitcmd"
 )
 
 // GetBranchesByPath returns a branch by its path

@@ -9,13 +9,13 @@ import (
 	"path"
 	"strings"
 
-	pull_model "code.gitea.io/gitea/models/pull"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/fileicon"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/gitdiff"
-	files_service "code.gitea.io/gitea/services/repository/files"
+	pull_model "code.aegit.io/aegit/models/pull"
+	"code.aegit.io/aegit/modules/base"
+	"code.aegit.io/aegit/modules/fileicon"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/gitdiff"
+	files_service "code.aegit.io/aegit/services/repository/files"
 
 	"github.com/go-enry/go-enry/v2"
 )

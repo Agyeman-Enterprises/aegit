@@ -4,8 +4,8 @@
 package v1_15
 
 import (
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/util"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

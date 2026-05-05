@@ -6,8 +6,8 @@ package internal
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/indexer/internal"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/indexer/internal"
+	"code.aegit.io/aegit/modules/log"
 )
 
 const filenameMatchNumberOfLines = 7 // Copied from GitHub search

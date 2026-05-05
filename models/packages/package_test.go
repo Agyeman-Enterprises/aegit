@@ -6,13 +6,13 @@ package packages_test
 import (
 	"testing"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	packages_model "code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
+	_ "code.aegit.io/aegit/models"
+	_ "code.aegit.io/aegit/models/actions"
+	_ "code.aegit.io/aegit/models/activities"
 
 	"github.com/stretchr/testify/assert"
 )

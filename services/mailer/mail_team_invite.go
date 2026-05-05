@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"net/url"
 
-	org_model "code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/translation"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	org_model "code.aegit.io/aegit/models/organization"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/translation"
+	sender_service "code.aegit.io/aegit/services/mailer/sender"
 )
 
 const tplTeamInviteMail templates.TplName = "org/team_invite"

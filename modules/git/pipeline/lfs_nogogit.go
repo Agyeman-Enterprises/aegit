@@ -12,8 +12,8 @@ import (
 	"sort"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/gitcmd"
 )
 
 // FindLFSFile finds commits that contain a provided pointer file hash

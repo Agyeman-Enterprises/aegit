@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"reflect"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/web/routing"
-	"code.gitea.io/gitea/modules/web/types"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/web/routing"
+	"code.aegit.io/aegit/modules/web/types"
 )
 
 var responseStatusProviders = map[reflect.Type]func(req *http.Request) types.ResponseStatusProvider{}

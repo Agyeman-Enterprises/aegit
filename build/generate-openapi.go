@@ -25,7 +25,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.gitea.io/gitea/build/openapi3gen"
+	"code.aegit.io/aegit/build/openapi3gen"
 
 	"github.com/getkin/kin-openapi/openapi3"
 )

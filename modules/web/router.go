@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"strings"
 
-	"code.gitea.io/gitea/modules/htmlutil"
-	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/modules/web/types"
+	"code.aegit.io/aegit/modules/htmlutil"
+	"code.aegit.io/aegit/modules/reqctx"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/web/middleware"
+	"code.aegit.io/aegit/modules/web/types"
 
 	"gitea.com/go-chi/binding"
 	"github.com/go-chi/chi/v5"

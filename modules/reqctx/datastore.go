@@ -9,7 +9,7 @@ import (
 	"maps"
 	"sync"
 
-	"code.gitea.io/gitea/modules/process"
+	"code.aegit.io/aegit/modules/process"
 )
 
 type ContextDataProvider interface {

@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	helm_module "code.gitea.io/gitea/modules/packages/helm"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/tests"
+	"code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	helm_module "code.aegit.io/aegit/modules/packages/helm"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"

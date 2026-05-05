@@ -6,8 +6,8 @@ package db
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/auth"
-	user_model "code.gitea.io/gitea/models/user"
+	"code.aegit.io/aegit/models/auth"
+	user_model "code.aegit.io/aegit/models/user"
 )
 
 // Source is a password authentication service

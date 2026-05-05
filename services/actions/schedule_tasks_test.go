@@ -6,7 +6,7 @@ package actions
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/json"
 
 	"github.com/stretchr/testify/assert"
 )

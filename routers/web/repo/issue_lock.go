@@ -4,10 +4,10 @@
 package repo
 
 import (
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/forms"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/forms"
 )
 
 // LockIssue locks an issue. This would limit commenting abilities to

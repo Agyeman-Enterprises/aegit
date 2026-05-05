@@ -8,10 +8,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/models/user"
-	gitea_context "code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/contexttest"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/models/user"
+	gitea_context "code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/contexttest"
 
 	"github.com/stretchr/testify/assert"
 )

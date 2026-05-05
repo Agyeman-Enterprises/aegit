@@ -11,8 +11,8 @@ import (
 	"io"
 	"strings"
 
-	"code.gitea.io/gitea/modules/typesniffer"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/typesniffer"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // This file contains common functions between the gogit and !gogit variants for git Blobs

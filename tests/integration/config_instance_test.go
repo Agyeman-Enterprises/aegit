@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	system_model "code.gitea.io/gitea/models/system"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/setting/config"
-	"code.gitea.io/gitea/tests"
+	system_model "code.aegit.io/aegit/models/system"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/setting/config"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

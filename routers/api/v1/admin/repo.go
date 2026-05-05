@@ -4,10 +4,10 @@
 package admin
 
 import (
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/api/v1/repo"
-	"code.gitea.io/gitea/services/context"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/routers/api/v1/repo"
+	"code.aegit.io/aegit/services/context"
 )
 
 // CreateRepo api for creating a repository

@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2024 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -8,7 +9,7 @@ import (
 	"io"
 	"strings"
 
-	packages_module "code.gitea.io/gitea/modules/packages"
+	packages_module "code.aegit.io/aegit/modules/packages"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/sassoftware/go-rpmutils"

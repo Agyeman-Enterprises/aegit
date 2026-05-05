@@ -12,10 +12,10 @@ import (
 	"io"
 	"time"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/timeutil"
-	"code.gitea.io/gitea/modules/util"
+	auth_model "code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/timeutil"
+	"code.aegit.io/aegit/modules/util"
 )
 
 func generateSaltedToken() (string, string, string, string) {

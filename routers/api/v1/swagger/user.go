@@ -4,8 +4,8 @@
 package swagger
 
 import (
-	activities_model "code.gitea.io/gitea/models/activities"
-	api "code.gitea.io/gitea/modules/structs"
+	activities_model "code.aegit.io/aegit/models/activities"
+	api "code.aegit.io/aegit/modules/structs"
 )
 
 // User

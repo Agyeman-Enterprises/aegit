@@ -4,7 +4,7 @@
 package optional
 
 import (
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/json"
 
 	"gopkg.in/yaml.v3"
 )

@@ -6,7 +6,7 @@ package common
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/httplib"
+	"code.aegit.io/aegit/modules/httplib"
 )
 
 // FetchRedirectDelegate helps the "fetch" requests to redirect to the correct location

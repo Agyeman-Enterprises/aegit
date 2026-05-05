@@ -8,13 +8,13 @@ import (
 	"errors"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/migrations"
-	system_model "code.gitea.io/gitea/models/system"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/setting/config"
-	"code.gitea.io/gitea/services/versioned_migration"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/migrations"
+	system_model "code.aegit.io/aegit/models/system"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/setting/config"
+	"code.aegit.io/aegit/services/versioned_migration"
 
 	"xorm.io/xorm"
 )

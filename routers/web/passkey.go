@@ -6,8 +6,8 @@ package web
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/services/context"
 )
 
 type passkeyEndpointsType struct {

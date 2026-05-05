@@ -6,8 +6,8 @@ package oauth2
 import (
 	"html/template"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/svg"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/svg"
 )
 
 // BaseProvider represents a common base for Provider

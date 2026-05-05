@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/unit"
+	"code.aegit.io/aegit/models/perm"
+	"code.aegit.io/aegit/models/unit"
 
 	"github.com/stretchr/testify/assert"
 )

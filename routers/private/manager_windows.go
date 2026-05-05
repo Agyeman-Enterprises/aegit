@@ -8,9 +8,9 @@ package private
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/graceful"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/graceful"
+	"code.aegit.io/aegit/modules/private"
+	"code.aegit.io/aegit/services/context"
 )
 
 // Restart is not implemented for Windows based servers as they can't fork

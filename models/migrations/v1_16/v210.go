@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/migrations/base"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"github.com/tstranex/u2f"
 	"xorm.io/xorm"

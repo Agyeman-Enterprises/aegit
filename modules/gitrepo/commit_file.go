@@ -8,8 +8,8 @@ import (
 	"context"
 	"io"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/log"
 )
 
 // CommitFileStatus represents status of files in a commit.

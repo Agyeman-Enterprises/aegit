@@ -8,10 +8,10 @@ import (
 	"io"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/proxy"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/system"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/proxy"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/system"
 
 	"github.com/hashicorp/go-version"
 )

@@ -4,7 +4,7 @@
 package repository
 
 import (
-	"code.gitea.io/gitea/modules/git"
+	"code.aegit.io/aegit/modules/git"
 )
 
 // PushUpdateOptions defines the push update options

@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2023 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -20,15 +21,15 @@ import (
 	"io"
 	"strings"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	alpine_model "code.gitea.io/gitea/models/packages/alpine"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/json"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	alpine_module "code.gitea.io/gitea/modules/packages/alpine"
-	"code.gitea.io/gitea/modules/util"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "code.aegit.io/aegit/models/packages"
+	alpine_model "code.aegit.io/aegit/models/packages/alpine"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/json"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	alpine_module "code.aegit.io/aegit/modules/packages/alpine"
+	"code.aegit.io/aegit/modules/util"
+	packages_service "code.aegit.io/aegit/services/packages"
 )
 
 const (

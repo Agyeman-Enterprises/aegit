@@ -7,7 +7,7 @@ import (
 	"context"
 	"sync"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 var (

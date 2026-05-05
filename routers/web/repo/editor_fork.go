@@ -6,9 +6,9 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
-	repo_service "code.gitea.io/gitea/services/repository"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
+	repo_service "code.aegit.io/aegit/services/repository"
 )
 
 const tplEditorFork templates.TplName = "repo/editor/fork"

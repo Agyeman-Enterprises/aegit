@@ -7,7 +7,7 @@ import (
 	"encoding/base32"
 	"fmt"
 
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"xorm.io/xorm"
 )

@@ -10,7 +10,7 @@ import (
 	"sort"
 	"time"
 
-	"code.gitea.io/gitea/modules/gtprof"
+	"code.aegit.io/aegit/modules/gtprof"
 
 	"github.com/google/pprof/profile"
 )

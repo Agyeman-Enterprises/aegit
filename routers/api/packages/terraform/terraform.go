@@ -13,15 +13,15 @@ import (
 	"strings"
 	"unicode"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	"code.gitea.io/gitea/modules/globallock"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	terraform_module "code.gitea.io/gitea/modules/packages/terraform"
-	"code.gitea.io/gitea/routers/api/packages/helper"
-	"code.gitea.io/gitea/services/context"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "code.aegit.io/aegit/models/packages"
+	"code.aegit.io/aegit/modules/globallock"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	terraform_module "code.aegit.io/aegit/modules/packages/terraform"
+	"code.aegit.io/aegit/routers/api/packages/helper"
+	"code.aegit.io/aegit/services/context"
+	packages_service "code.aegit.io/aegit/services/packages"
 )
 
 var packageNameRegex = regexp.MustCompile(`\A[-_+.\w]+\z`)

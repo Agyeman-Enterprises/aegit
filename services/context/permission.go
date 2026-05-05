@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"slices"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
+	auth_model "code.aegit.io/aegit/models/auth"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
 )
 
 // RequireRepoAdmin returns a middleware for requiring repository admin permission

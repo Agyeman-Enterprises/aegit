@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/base"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // FormString returns the first value matching the provided key in the form as a string

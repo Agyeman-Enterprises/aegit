@@ -6,8 +6,8 @@ package admin
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/tailmsg"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/tailmsg"
+	"code.aegit.io/aegit/services/context"
 )
 
 func PerfTrace(ctx *context.Context) {

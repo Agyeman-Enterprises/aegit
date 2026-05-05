@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/optional"
+	"code.aegit.io/aegit/modules/optional"
 )
 
 // GitPushOptions is a wrapper around a map[string]string

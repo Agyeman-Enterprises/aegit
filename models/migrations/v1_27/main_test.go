@@ -6,7 +6,7 @@ package v1_27
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/migrations/migrationtest"
+	"code.aegit.io/aegit/models/migrations/migrationtest"
 )
 
 func TestMain(m *testing.M) {

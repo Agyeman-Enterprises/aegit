@@ -8,13 +8,13 @@ import (
 	"html"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/routers/web/healthcheck"
-	"code.gitea.io/gitea/routers/web/misc"
-	"code.gitea.io/gitea/services/forms"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/web"
+	"code.aegit.io/aegit/routers/common"
+	"code.aegit.io/aegit/routers/web/healthcheck"
+	"code.aegit.io/aegit/routers/web/misc"
+	"code.aegit.io/aegit/services/forms"
 )
 
 // Routes registers the installation routes

@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"code.gitea.io/gitea/models/db"
+	"code.aegit.io/aegit/models/db"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

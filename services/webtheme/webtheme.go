@@ -14,11 +14,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 )
 
 type themeCollectionStruct struct {

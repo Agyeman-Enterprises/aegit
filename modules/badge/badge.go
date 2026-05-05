@@ -8,7 +8,7 @@ import (
 	"sync"
 	"unicode"
 
-	actions_model "code.gitea.io/gitea/models/actions"
+	actions_model "code.aegit.io/aegit/models/actions"
 )
 
 // The Badge layout: |offset|label|message|

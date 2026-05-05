@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"path"
 
-	"code.gitea.io/gitea/models/renderhelper"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/renderhelper"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/services/context"
 )
 
 // RenderFile renders a file by repos path

@@ -6,8 +6,8 @@ package terraform
 import (
 	"io"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // Note: this is a subset of the Terraform state file format as the full one has two forms.

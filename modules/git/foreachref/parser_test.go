@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/git/foreachref"
-	"code.gitea.io/gitea/modules/json"
+	"code.aegit.io/aegit/modules/git/foreachref"
+	"code.aegit.io/aegit/modules/json"
 
 	"github.com/stretchr/testify/require"
 )

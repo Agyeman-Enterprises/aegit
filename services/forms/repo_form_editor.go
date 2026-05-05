@@ -6,9 +6,9 @@ package forms
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/web/middleware"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/web/middleware"
+	"code.aegit.io/aegit/services/context"
 
 	"gitea.com/go-chi/binding"
 )

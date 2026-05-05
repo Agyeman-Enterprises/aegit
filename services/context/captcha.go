@@ -8,14 +8,14 @@ import (
 	"image/color"
 	"sync"
 
-	"code.gitea.io/gitea/modules/cache"
-	"code.gitea.io/gitea/modules/hcaptcha"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/mcaptcha"
-	"code.gitea.io/gitea/modules/recaptcha"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/turnstile"
+	"code.aegit.io/aegit/modules/cache"
+	"code.aegit.io/aegit/modules/hcaptcha"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/mcaptcha"
+	"code.aegit.io/aegit/modules/recaptcha"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/turnstile"
 
 	"gitea.com/go-chi/captcha"
 )

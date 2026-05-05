@@ -6,8 +6,8 @@ package v1_20
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/migrations/base"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/models/migrations/base"
+	"code.aegit.io/aegit/modules/setting"
 
 	"xorm.io/xorm"
 )

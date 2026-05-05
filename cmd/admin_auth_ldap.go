@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/auth/source/ldap"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/auth/source/ldap"
 
 	"github.com/urfave/cli/v3"
 )

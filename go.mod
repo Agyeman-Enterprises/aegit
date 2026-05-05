@@ -1,4 +1,4 @@
-module code.gitea.io/gitea
+module code.aegit.io/aegit
 
 go 1.26.2
 

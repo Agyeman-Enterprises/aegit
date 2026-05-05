@@ -6,11 +6,11 @@ package repo
 import (
 	"net/http"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	unit_model "code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	release_service "code.gitea.io/gitea/services/release"
+	repo_model "code.aegit.io/aegit/models/repo"
+	unit_model "code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
+	release_service "code.aegit.io/aegit/services/release"
 )
 
 // GetReleaseByTag get a single release of a repository by tag name

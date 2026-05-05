@@ -4,7 +4,7 @@
 package actions
 
 import (
-	"code.gitea.io/gitea/models/db"
+	"code.aegit.io/aegit/models/db"
 
 	"xorm.io/builder"
 )

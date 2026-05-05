@@ -4,7 +4,7 @@ FLAG="/data/.mirrored"
 if [ -f "$FLAG" ]; then echo "[mirror] Already done."; exit 0; fi
 
 AUTH="$(printf '%s:%s' "$AEGIT_ADMIN_USER" "$AEGIT_ADMIN_PASSWORD" | base64 | tr -d '\n')"
-API="http://localhost:8001/api/v1"
+API="http://localhost:8085/api/v1"
 
 for ORG in Agyeman-Enterprises isaalia imho-media; do
   echo "[mirror] Ensuring org: $ORG"

@@ -6,10 +6,10 @@ package repo
 import (
 	"slices"
 
-	"code.gitea.io/gitea/models/perm"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/models/perm"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // ActionsTokenPermissionMode defines the default permission mode for Actions tokens

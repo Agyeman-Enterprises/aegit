@@ -9,7 +9,7 @@ import (
 	"net/mail"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/modules/log"
 )
 
 var IncomingEmail = struct {

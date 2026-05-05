@@ -4,8 +4,8 @@
 package v1_12
 
 import (
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/setting"
 
 	"xorm.io/xorm"
 )

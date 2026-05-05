@@ -6,9 +6,9 @@ package system_test
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/system"
-	"code.gitea.io/gitea/models/unittest"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/system"
+	"code.aegit.io/aegit/models/unittest"
 
 	"github.com/stretchr/testify/assert"
 )

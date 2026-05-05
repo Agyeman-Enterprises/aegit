@@ -7,7 +7,7 @@ import (
 	"context"
 	"html/template"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 const (

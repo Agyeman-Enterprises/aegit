@@ -9,13 +9,13 @@ import (
 	"fmt"
 	"net/http"
 
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/auth/webauthn"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/modules/session"
-	"code.gitea.io/gitea/modules/web/middleware"
-	user_service "code.gitea.io/gitea/services/user"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/auth/webauthn"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/modules/session"
+	"code.aegit.io/aegit/modules/web/middleware"
+	user_service "code.aegit.io/aegit/services/user"
 )
 
 type ErrUserAuthMessage string

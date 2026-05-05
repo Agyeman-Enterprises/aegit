@@ -6,7 +6,7 @@ package system
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
+	"code.aegit.io/aegit/models/db"
 )
 
 // AppState represents a state record in database

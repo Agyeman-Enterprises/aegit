@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/tempdir"
-	"code.gitea.io/gitea/modules/testlogger"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/tempdir"
+	"code.aegit.io/aegit/modules/testlogger"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

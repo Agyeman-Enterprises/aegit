@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"strings"
 
-	user_model "code.gitea.io/gitea/models/user"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
-	shared "code.gitea.io/gitea/routers/web/shared/packages"
-	"code.gitea.io/gitea/services/context"
+	user_model "code.aegit.io/aegit/models/user"
+	chef_module "code.aegit.io/aegit/modules/packages/chef"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
+	shared "code.aegit.io/aegit/routers/web/shared/packages"
+	"code.aegit.io/aegit/services/context"
 )
 
 const (

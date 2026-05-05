@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/gitrepo"
-	"code.gitea.io/gitea/services/attachment"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/gitrepo"
+	"code.aegit.io/aegit/services/attachment"
 
-	_ "code.gitea.io/gitea/models/actions"
+	_ "code.aegit.io/aegit/models/actions"
 
 	"github.com/stretchr/testify/assert"
 )

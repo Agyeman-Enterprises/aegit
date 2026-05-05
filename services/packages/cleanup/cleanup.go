@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2022 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -8,19 +9,19 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	packages_model "code.gitea.io/gitea/models/packages"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	packages_service "code.gitea.io/gitea/services/packages"
-	alpine_service "code.gitea.io/gitea/services/packages/alpine"
-	arch_service "code.gitea.io/gitea/services/packages/arch"
-	cargo_service "code.gitea.io/gitea/services/packages/cargo"
-	container_service "code.gitea.io/gitea/services/packages/container"
-	debian_service "code.gitea.io/gitea/services/packages/debian"
-	rpm_service "code.gitea.io/gitea/services/packages/rpm"
+	"code.aegit.io/aegit/models/db"
+	packages_model "code.aegit.io/aegit/models/packages"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	packages_service "code.aegit.io/aegit/services/packages"
+	alpine_service "code.aegit.io/aegit/services/packages/alpine"
+	arch_service "code.aegit.io/aegit/services/packages/arch"
+	cargo_service "code.aegit.io/aegit/services/packages/cargo"
+	container_service "code.aegit.io/aegit/services/packages/container"
+	debian_service "code.aegit.io/aegit/services/packages/debian"
+	rpm_service "code.aegit.io/aegit/services/packages/rpm"
 )
 
 // CleanupTask executes cleanup rules and cleanup expired package data

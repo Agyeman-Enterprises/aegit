@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 )

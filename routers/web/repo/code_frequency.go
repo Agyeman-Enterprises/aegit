@@ -7,9 +7,9 @@ import (
 	"errors"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
-	contributors_service "code.gitea.io/gitea/services/repository"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
+	contributors_service "code.aegit.io/aegit/services/repository"
 )
 
 const (

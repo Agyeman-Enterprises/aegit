@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/web/middleware"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/web/middleware"
 )
 
 const CookieNameFlash = "gitea_flash"

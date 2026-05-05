@@ -6,16 +6,16 @@ package indexer
 import (
 	"context"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	repo_model "code.gitea.io/gitea/models/repo"
-	user_model "code.gitea.io/gitea/models/user"
-	code_indexer "code.gitea.io/gitea/modules/indexer/code"
-	issue_indexer "code.gitea.io/gitea/modules/indexer/issues"
-	stats_indexer "code.gitea.io/gitea/modules/indexer/stats"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/repository"
-	"code.gitea.io/gitea/modules/setting"
-	notify_service "code.gitea.io/gitea/services/notify"
+	issues_model "code.aegit.io/aegit/models/issues"
+	repo_model "code.aegit.io/aegit/models/repo"
+	user_model "code.aegit.io/aegit/models/user"
+	code_indexer "code.aegit.io/aegit/modules/indexer/code"
+	issue_indexer "code.aegit.io/aegit/modules/indexer/issues"
+	stats_indexer "code.aegit.io/aegit/modules/indexer/stats"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/repository"
+	"code.aegit.io/aegit/modules/setting"
+	notify_service "code.aegit.io/aegit/services/notify"
 )
 
 type indexerNotifier struct {

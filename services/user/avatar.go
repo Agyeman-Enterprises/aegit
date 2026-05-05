@@ -10,11 +10,11 @@ import (
 	"io"
 	"os"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/avatar"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/storage"
+	"code.aegit.io/aegit/models/db"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/avatar"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/storage"
 )
 
 // UploadAvatar saves custom avatar for user.

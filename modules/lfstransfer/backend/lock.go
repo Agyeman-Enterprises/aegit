@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"code.gitea.io/gitea/modules/json"
-	lfslock "code.gitea.io/gitea/modules/structs"
+	"code.aegit.io/aegit/modules/json"
+	lfslock "code.aegit.io/aegit/modules/structs"
 
 	"github.com/charmbracelet/git-lfs-transfer/transfer"
 )

@@ -6,12 +6,12 @@ package repo
 import (
 	"html/template"
 
-	pull_model "code.gitea.io/gitea/models/pull"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
-	pull_service "code.gitea.io/gitea/services/pull"
+	pull_model "code.aegit.io/aegit/models/pull"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
+	pull_service "code.aegit.io/aegit/services/pull"
 )
 
 func (prInfo *pullRequestViewInfo) prepareMergeBoxFormProps(ctx *context.Context) {

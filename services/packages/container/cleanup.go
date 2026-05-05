@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2022 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -7,11 +8,11 @@ import (
 	"context"
 	"time"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	container_model "code.gitea.io/gitea/models/packages/container"
-	"code.gitea.io/gitea/modules/optional"
-	container_module "code.gitea.io/gitea/modules/packages/container"
-	packages_service "code.gitea.io/gitea/services/packages"
+	packages_model "code.aegit.io/aegit/models/packages"
+	container_model "code.aegit.io/aegit/models/packages/container"
+	"code.aegit.io/aegit/modules/optional"
+	container_module "code.aegit.io/aegit/modules/packages/container"
+	packages_service "code.aegit.io/aegit/services/packages"
 
 	"github.com/opencontainers/go-digest"
 )

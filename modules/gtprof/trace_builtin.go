@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"code.gitea.io/gitea/modules/tailmsg"
+	"code.aegit.io/aegit/modules/tailmsg"
 )
 
 type traceBuiltinStarter struct{}

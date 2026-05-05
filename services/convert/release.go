@@ -6,8 +6,8 @@ package convert
 import (
 	"context"
 
-	repo_model "code.gitea.io/gitea/models/repo"
-	api "code.gitea.io/gitea/modules/structs"
+	repo_model "code.aegit.io/aegit/models/repo"
+	api "code.aegit.io/aegit/modules/structs"
 )
 
 // ToAPIRelease convert a repo_model.Release to api.Release

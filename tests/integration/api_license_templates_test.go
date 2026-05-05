@@ -8,10 +8,10 @@ import (
 	"net/url"
 	"testing"
 
-	"code.gitea.io/gitea/modules/options"
-	repo_module "code.gitea.io/gitea/modules/repository"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/tests"
+	"code.aegit.io/aegit/modules/options"
+	repo_module "code.aegit.io/aegit/modules/repository"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/tests"
 
 	"github.com/stretchr/testify/assert"
 )

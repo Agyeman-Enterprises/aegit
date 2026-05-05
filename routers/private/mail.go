@@ -9,15 +9,15 @@ import (
 	"net/http"
 	"strconv"
 
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/mailer"
-	sender_service "code.gitea.io/gitea/services/mailer/sender"
+	"code.aegit.io/aegit/models/db"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/private"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/mailer"
+	sender_service "code.aegit.io/aegit/services/mailer/sender"
 )
 
 // SendEmail pushes messages to mail queue

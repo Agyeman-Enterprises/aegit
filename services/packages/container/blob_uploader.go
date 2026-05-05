@@ -1,3 +1,4 @@
+// AEGIT-CODEFLAG: phase3-remove
 // Copyright 2022 The Gitea Authors. All rights reserved.
 // SPDX-License-Identifier: MIT
 
@@ -9,10 +10,10 @@ import (
 	"io"
 	"os"
 
-	packages_model "code.gitea.io/gitea/models/packages"
-	packages_module "code.gitea.io/gitea/modules/packages"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/tempdir"
+	packages_model "code.aegit.io/aegit/models/packages"
+	packages_module "code.aegit.io/aegit/modules/packages"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/tempdir"
 )
 
 var (

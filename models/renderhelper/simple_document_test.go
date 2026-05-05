@@ -6,9 +6,9 @@ package renderhelper
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/markdown"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/modules/markup/markdown"
 
 	"github.com/stretchr/testify/assert"
 )

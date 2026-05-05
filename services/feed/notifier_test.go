@@ -7,13 +7,13 @@ import (
 	"strings"
 	"testing"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	repo_model "code.gitea.io/gitea/models/repo"
-	"code.gitea.io/gitea/models/unittest"
-	user_model "code.gitea.io/gitea/models/user"
+	activities_model "code.aegit.io/aegit/models/activities"
+	repo_model "code.aegit.io/aegit/models/repo"
+	"code.aegit.io/aegit/models/unittest"
+	user_model "code.aegit.io/aegit/models/user"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
+	_ "code.aegit.io/aegit/models"
+	_ "code.aegit.io/aegit/models/actions"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -6,7 +6,7 @@ package v1_12
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"xorm.io/xorm"
 )

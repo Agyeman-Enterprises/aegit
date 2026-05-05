@@ -3,7 +3,7 @@
 
 package elasticsearch
 
-import "code.gitea.io/gitea/modules/json"
+import "code.aegit.io/aegit/modules/json"
 
 const (
 	bulkActionIndex  = "index"

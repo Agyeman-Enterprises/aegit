@@ -6,7 +6,7 @@ package db
 import (
 	"context"
 
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/setting"
 
 	"xorm.io/builder"
 )

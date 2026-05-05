@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	git_model "code.gitea.io/gitea/models/git"
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/services/context"
+	activities_model "code.aegit.io/aegit/models/activities"
+	git_model "code.aegit.io/aegit/models/git"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/services/context"
 )
 
 const (

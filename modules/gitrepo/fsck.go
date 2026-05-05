@@ -7,7 +7,7 @@ import (
 	"context"
 	"time"
 
-	"code.gitea.io/gitea/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/git/gitcmd"
 )
 
 // Fsck verifies the connectivity and validity of the objects in the database

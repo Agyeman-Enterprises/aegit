@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/modules/glob"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/glob"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 type globalVarsStruct struct {

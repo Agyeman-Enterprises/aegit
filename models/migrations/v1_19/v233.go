@@ -6,9 +6,9 @@ package v1_19
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/json"
-	"code.gitea.io/gitea/modules/secret"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/json"
+	"code.aegit.io/aegit/modules/secret"
+	"code.aegit.io/aegit/modules/setting"
 
 	"xorm.io/builder"
 	"xorm.io/xorm"

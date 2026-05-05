@@ -11,14 +11,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/assetfs"
-	"code.gitea.io/gitea/modules/glob"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/options"
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/assetfs"
+	"code.aegit.io/aegit/modules/glob"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/options"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/urfave/cli/v3"
 )

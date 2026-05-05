@@ -6,10 +6,10 @@ package convert
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/packages"
-	access_model "code.gitea.io/gitea/models/perm/access"
-	user_model "code.gitea.io/gitea/models/user"
-	api "code.gitea.io/gitea/modules/structs"
+	"code.aegit.io/aegit/models/packages"
+	access_model "code.aegit.io/aegit/models/perm/access"
+	user_model "code.aegit.io/aegit/models/user"
+	api "code.aegit.io/aegit/modules/structs"
 )
 
 // ToPackage convert a packages.PackageDescriptor to api.Package

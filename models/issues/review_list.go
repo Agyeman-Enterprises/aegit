@@ -8,11 +8,11 @@ import (
 	"slices"
 	"sort"
 
-	"code.gitea.io/gitea/models/db"
-	organization_model "code.gitea.io/gitea/models/organization"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/optional"
+	"code.aegit.io/aegit/models/db"
+	organization_model "code.aegit.io/aegit/models/organization"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/optional"
 
 	"xorm.io/builder"
 )

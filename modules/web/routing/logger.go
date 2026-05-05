@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/web/types"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/web/types"
 )
 
 // NewLoggerHandler is a handler that will log routing to the router log taking account of

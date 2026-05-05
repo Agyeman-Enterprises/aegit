@@ -6,14 +6,14 @@ package issues_test
 import (
 	"testing"
 
-	issues_model "code.gitea.io/gitea/models/issues"
-	"code.gitea.io/gitea/models/unittest"
+	issues_model "code.aegit.io/aegit/models/issues"
+	"code.aegit.io/aegit/models/unittest"
 
-	_ "code.gitea.io/gitea/models"
-	_ "code.gitea.io/gitea/models/actions"
-	_ "code.gitea.io/gitea/models/activities"
-	_ "code.gitea.io/gitea/models/repo"
-	_ "code.gitea.io/gitea/models/user"
+	_ "code.aegit.io/aegit/models"
+	_ "code.aegit.io/aegit/models/actions"
+	_ "code.aegit.io/aegit/models/activities"
+	_ "code.aegit.io/aegit/models/repo"
+	_ "code.aegit.io/aegit/models/user"
 
 	"github.com/stretchr/testify/assert"
 )

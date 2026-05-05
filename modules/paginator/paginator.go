@@ -4,7 +4,7 @@
 
 package paginator
 
-import "code.gitea.io/gitea/modules/util"
+import "code.aegit.io/aegit/modules/util"
 
 /*
 In template:

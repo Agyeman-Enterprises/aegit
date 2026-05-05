@@ -12,8 +12,8 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/container"
-	"code.gitea.io/gitea/modules/paginator"
+	"code.aegit.io/aegit/modules/container"
+	"code.aegit.io/aegit/modules/paginator"
 )
 
 // Pagination provides a pagination via paginator.Paginator and additional configurations for the link params used in rendering

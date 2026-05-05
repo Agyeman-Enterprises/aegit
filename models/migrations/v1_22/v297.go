@@ -4,7 +4,7 @@
 package v1_22
 
 import (
-	"code.gitea.io/gitea/models/perm"
+	"code.aegit.io/aegit/models/perm"
 
 	"xorm.io/xorm"
 )

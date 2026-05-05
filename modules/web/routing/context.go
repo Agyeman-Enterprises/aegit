@@ -7,10 +7,10 @@ import (
 	"context"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/gtprof"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/reqctx"
-	"code.gitea.io/gitea/modules/web/types"
+	"code.aegit.io/aegit/modules/gtprof"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/reqctx"
+	"code.aegit.io/aegit/modules/web/types"
 )
 
 type contextKeyType struct{}

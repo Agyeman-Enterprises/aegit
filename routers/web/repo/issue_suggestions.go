@@ -6,10 +6,10 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/unit"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/services/context"
-	issue_service "code.gitea.io/gitea/services/issue"
+	"code.aegit.io/aegit/models/unit"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/services/context"
+	issue_service "code.aegit.io/aegit/services/issue"
 )
 
 // IssueSuggestions returns a list of issue suggestions

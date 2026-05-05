@@ -11,7 +11,7 @@ import (
 	"slices"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/util"
 )
 
 // hookNames is a list of Git server hooks' name that are supported.

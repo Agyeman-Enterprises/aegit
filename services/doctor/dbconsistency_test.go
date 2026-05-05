@@ -7,11 +7,11 @@ import (
 	"slices"
 	"testing"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/models/unittest"
-	"code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/models/unittest"
+	"code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -7,10 +7,10 @@ import (
 	"bufio"
 	"io"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/git/gitcmd"
-	"code.gitea.io/gitea/modules/log"
-	asymkey_service "code.gitea.io/gitea/services/asymkey"
+	"code.aegit.io/aegit/modules/git"
+	"code.aegit.io/aegit/modules/git/gitcmd"
+	"code.aegit.io/aegit/modules/log"
+	asymkey_service "code.aegit.io/aegit/services/asymkey"
 )
 
 // This file contains commit verification functions for refs passed across in hooks

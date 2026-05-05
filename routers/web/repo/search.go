@@ -6,14 +6,14 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/git"
-	code_indexer "code.gitea.io/gitea/modules/indexer/code"
-	"code.gitea.io/gitea/modules/indexer/code/gitgrep"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/templates"
-	"code.gitea.io/gitea/routers/common"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/git"
+	code_indexer "code.aegit.io/aegit/modules/indexer/code"
+	"code.aegit.io/aegit/modules/indexer/code/gitgrep"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/templates"
+	"code.aegit.io/aegit/routers/common"
+	"code.aegit.io/aegit/services/context"
 )
 
 const tplSearch templates.TplName = "repo/search"

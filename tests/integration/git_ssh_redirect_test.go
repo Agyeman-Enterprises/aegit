@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	auth_model "code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/modules/structs"
+	auth_model "code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/modules/structs"
 
 	"github.com/stretchr/testify/assert"
 )

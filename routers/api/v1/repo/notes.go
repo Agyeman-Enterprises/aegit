@@ -7,10 +7,10 @@ import (
 	"errors"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/git"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
+	"code.aegit.io/aegit/modules/git"
+	api "code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
 )
 
 // GetNote Get a note corresponding to a single commit from a repository

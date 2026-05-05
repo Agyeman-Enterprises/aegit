@@ -6,7 +6,7 @@ package attribute
 import (
 	"strings"
 
-	"code.gitea.io/gitea/modules/optional"
+	"code.aegit.io/aegit/modules/optional"
 )
 
 type Attribute string

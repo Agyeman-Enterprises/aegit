@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/typesniffer"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/typesniffer"
 )
 
 // Renderer defines an interface for rendering markup file to HTML

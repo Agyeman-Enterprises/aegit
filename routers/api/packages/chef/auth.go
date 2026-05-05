@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
-	user_model "code.gitea.io/gitea/models/user"
-	chef_module "code.gitea.io/gitea/modules/packages/chef"
-	"code.gitea.io/gitea/modules/util"
-	"code.gitea.io/gitea/services/auth"
+	user_model "code.aegit.io/aegit/models/user"
+	chef_module "code.aegit.io/aegit/modules/packages/chef"
+	"code.aegit.io/aegit/modules/util"
+	"code.aegit.io/aegit/services/auth"
 )
 
 const (

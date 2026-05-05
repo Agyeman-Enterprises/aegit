@@ -12,10 +12,10 @@ import (
 	"os"
 	"path"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/public"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/public"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // ErrURLNotSupported represents url is not supported

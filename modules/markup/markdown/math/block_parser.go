@@ -6,7 +6,7 @@ package math
 import (
 	"bytes"
 
-	giteaUtil "code.gitea.io/gitea/modules/util"
+	giteaUtil "code.aegit.io/aegit/modules/util"
 
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/parser"

@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"maps"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/timeutil"
 )
 
 // ViewedState stores for a file in which state it is currently viewed

@@ -9,11 +9,11 @@ import (
 	"io"
 	"strconv"
 
-	"code.gitea.io/gitea/modules/csv"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/translation"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/csv"
+	"code.aegit.io/aegit/modules/markup"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/translation"
+	"code.aegit.io/aegit/modules/util"
 )
 
 func init() {

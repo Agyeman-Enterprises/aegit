@@ -6,8 +6,8 @@ package web
 import (
 	"html/template"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/services/context"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/services/context"
 )
 
 // SwaggerV1Json render swagger v1 json

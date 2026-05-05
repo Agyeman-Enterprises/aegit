@@ -7,13 +7,13 @@ package user
 import (
 	"net/http"
 
-	activities_model "code.gitea.io/gitea/models/activities"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/utils"
-	"code.gitea.io/gitea/services/context"
-	"code.gitea.io/gitea/services/convert"
-	feed_service "code.gitea.io/gitea/services/feed"
+	activities_model "code.aegit.io/aegit/models/activities"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/structs"
+	"code.aegit.io/aegit/routers/api/v1/utils"
+	"code.aegit.io/aegit/services/context"
+	"code.aegit.io/aegit/services/convert"
+	feed_service "code.aegit.io/aegit/services/feed"
 )
 
 // Search search users

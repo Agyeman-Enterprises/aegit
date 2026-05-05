@@ -6,8 +6,8 @@ package install
 import (
 	"context"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/setting"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/setting"
 )
 
 // CheckDatabaseConnection checks the database connection

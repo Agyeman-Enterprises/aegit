@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/models/db"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting/config"
-	"code.gitea.io/gitea/modules/timeutil"
+	"code.aegit.io/aegit/models/db"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/setting/config"
+	"code.aegit.io/aegit/modules/timeutil"
 
 	"xorm.io/builder"
 )

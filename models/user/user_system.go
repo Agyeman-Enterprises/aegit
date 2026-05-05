@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/modules/structs"
+	"code.aegit.io/aegit/modules/structs"
 )
 
 const (

@@ -11,10 +11,10 @@ import (
 	"net/url"
 	"strings"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/httplib"
+	"code.aegit.io/aegit/modules/private"
+	"code.aegit.io/aegit/modules/setting"
+	"code.aegit.io/aegit/modules/util"
 
 	"github.com/charmbracelet/git-lfs-transfer/transfer"
 )

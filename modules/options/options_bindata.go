@@ -10,7 +10,7 @@ package options
 import (
 	"sync"
 
-	"code.gitea.io/gitea/modules/assetfs"
+	"code.aegit.io/aegit/modules/assetfs"
 
 	_ "embed"
 )

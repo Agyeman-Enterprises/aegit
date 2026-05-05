@@ -7,18 +7,18 @@ import (
 	"context"
 	"strings"
 
-	"code.gitea.io/gitea/models/auth"
-	"code.gitea.io/gitea/models/db"
-	user_model "code.gitea.io/gitea/models/user"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/optional"
-	"code.gitea.io/gitea/services/auth/source/oauth2"
-	"code.gitea.io/gitea/services/auth/source/smtp"
+	"code.aegit.io/aegit/models/auth"
+	"code.aegit.io/aegit/models/db"
+	user_model "code.aegit.io/aegit/models/user"
+	"code.aegit.io/aegit/modules/log"
+	"code.aegit.io/aegit/modules/optional"
+	"code.aegit.io/aegit/services/auth/source/oauth2"
+	"code.aegit.io/aegit/services/auth/source/smtp"
 
-	_ "code.gitea.io/gitea/services/auth/source/db"   // register the sources (and below)
-	_ "code.gitea.io/gitea/services/auth/source/ldap" // register the ldap source
-	_ "code.gitea.io/gitea/services/auth/source/pam"  // register the pam source
-	_ "code.gitea.io/gitea/services/auth/source/sspi" // register the sspi source
+	_ "code.aegit.io/aegit/services/auth/source/db"   // register the sources (and below)
+	_ "code.aegit.io/aegit/services/auth/source/ldap" // register the ldap source
+	_ "code.aegit.io/aegit/services/auth/source/pam"  // register the pam source
+	_ "code.aegit.io/aegit/services/auth/source/sspi" // register the sspi source
 )
 
 // UserSignIn validates user name and password.

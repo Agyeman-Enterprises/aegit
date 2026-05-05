@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/modules/references"
-	"code.gitea.io/gitea/modules/util"
+	"code.aegit.io/aegit/modules/references"
+	"code.aegit.io/aegit/modules/util"
 
 	"golang.org/x/net/html"
 )
