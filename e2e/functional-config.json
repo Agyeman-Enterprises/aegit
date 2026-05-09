@@ -1,0 +1,63 @@
+{
+  "appName": "UnknownApp",
+  "primaryEntity": {
+    "humanName": "Dashboard",
+    "createPath": "/dashboard",
+    "createTriggerText": "New Dashboard",
+    "listPath": "/dashboard",
+    "apiListEndpoint": "/api/dashboard",
+    "apiGetEndpoint": "/api/dashboard",
+    "fields": [
+      {
+        "selector": "[data-testid=\"FILL_IN-input\"]",
+        "testValue": "E2E Test Dashboard",
+        "updatedValue": "E2E Test Dashboard Updated",
+        "type": "text"
+      }
+    ],
+    "listTextMarker": "E2E Test Dashboard",
+    "editTriggerSelector": "[data-testid=\"edit-btn\"], [data-testid*=\"edit\"]",
+    "deleteTriggerSelector": "[data-testid=\"delete-btn\"], [data-testid*=\"delete\"]",
+    "deleteConfirmText": "Confirm"
+  },
+  "criticalFlow": {
+    "description": "Create a Dashboard",
+    "steps": [
+      {
+        "action": "goto",
+        "target": "/dashboard",
+        "description": "Navigate to Dashboard create page"
+      },
+      {
+        "action": "click",
+        "target": "button:has-text(\"New Dashboard\")",
+        "description": "Click New Dashboard button"
+      },
+      {
+        "action": "fill",
+        "target": "[data-testid=\"FILL_IN-input\"]",
+        "value": "E2E Test Dashboard",
+        "description": "Fill [data-testid=\"FILL_IN-input\"]"
+      },
+      {
+        "action": "click",
+        "target": "button[type=\"submit\"], button:has-text(\"Save\"), button:has-text(\"Create\"), button:has-text(\"Add\")",
+        "description": "Submit create form"
+      },
+      {
+        "action": "waitForText",
+        "target": "E2E Test Dashboard",
+        "description": "Dashboard appears in list"
+      }
+    ],
+    "completionMarker": "E2E Test Dashboard"
+  },
+  "authPaths": {
+    "login": "/login",
+    "protected": "/dashboard"
+  },
+  "emptyStateText": "No Dashboards found",
+  "navLinks": [
+    "/dashboard"
+  ]
+}
